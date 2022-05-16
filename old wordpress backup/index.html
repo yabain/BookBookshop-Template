@@ -1,0 +1,2384 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>BookBookShop</title>
+	<!--/tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="https://bookbookshop.com/dev/images/icon.png" />
+	<meta property="og:title" content="Boobookshop" />
+	<link rel="icon" type="image/png" href="./images/icon.png">
+	<meta name="description" content="Votre libraire en ligne">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="livre, erntrée scolaire, fournitures, " />
+
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--//tags -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!--pop-up-box-->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//pop-up-box-->
+	<!-- price range -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
+	<!-- fonts -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+</head>
+
+<body>
+	<!-- header-bot-->
+	<div class="header-bot" style="background-color: white;">
+		<div class="header-bot_inner_wthreeinfo_header_mid">
+			<!-- header-bot-->
+			<div class="col-md-3 logo_agile">
+				<h1>
+					<a href="index.html">
+						<img src="images/bbs_logo.png" class="logoTop" alt="BBS_logo" style="width: 100% !important;">
+					</a>
+				</h1>
+			</div>
+			<!-- header-bot -->
+			<div class="col-md-8 header">
+				<!-- header lists -->
+				<ul>
+					<li>
+						<span class="fa fa-phone" aria-hidden="true"></span> 696 100 982 
+					</li>
+					<li>
+						<a href="#" data-toggle="modal" data-target="#myModal1">
+							<span class="fa fa-unlock-alt" aria-hidden="true"></span> S'identifier </a>
+					</li>
+					<li>
+						<a href="love.html">
+							<span class="fa fa-heart-o" aria-hidden="true"></span> Voeux </a>
+					</li>
+				</ul>
+				<!-- //header lists -->
+				<!-- search -->
+				<div class="agileits_search">
+					<form action="#" method="post">
+						<input name="Search" type="search" placeholder="Comment pouvons-nous vous aider aujourd'hui ?"
+							required="">
+						<button type="submit" style="border-radius: 15 15px 15 px 15 !important;"
+							class="btn btn-default" aria-label="Left Align">
+							<span class="fa fa-search" aria-hidden="true"> </span>
+						</button>
+					</form>
+				</div>
+				<!-- //search -->
+				<!-- cart details -->
+				<div class="top_nav_right">
+					<div class="wthreecartaits wthreecartaits2 cart cart box_1">
+						<form action="#" method="post" class="last">
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="display" value="1">
+							<button class="w3view-cart" type="submit" name="submit" value="">
+								<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+				<!-- //cart details -->
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div id="small-dialog1" class="mfp-hide" style="background-color: white;">
+		<div class="select-city">
+			<h3>Veuillez sélectionner votre emplacement</h3>
+			<select class="list_of_cities">
+				<optgroup label="Villes populaire">
+					<option selected style="display:none;color:#eee;">Sélectionner une ville</option>
+					<option>Douala</option>
+					<option>Yaoundé</option>
+				</optgroup>
+				<optgroup label="Yaoundé">
+					<option>Yaoundé</option>
+					<option>Essos</option>
+					<option>Melen</option>
+					<option>Mvan</option>
+					<option>Emana</option>
+				</optgroup>
+				<optgroup label="Douala">
+					<option>Dakar</option>
+					<option>New bell</option>
+					<option>Bonapriso</option>
+					<option>bonamoussadi</option>
+					<option>PK12</option>
+				</optgroup>
+			</select>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+
+	<!-- //shop locator (popup) -->
+	<!-- signin Model -->
+	<!-- Modal1 -->
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body modal-body-sub_agile">
+					<div class="main-mailposi">
+						<span class="fa fa-envelope-o" aria-hidden="true"></span>
+					</div>
+					<div class="modal_body_left modal_body_left1">
+						<h3 class="agileinfo_sign">S'identifier </h3>
+						<p>
+							Connectez-vous maintenant, et commencez à faire vos courses. Vous n'avez pas de compte ?
+							<a href="love.html">
+								S'enregistrer</a>
+						</p>
+						<form action="#" method="post">
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" placeholder="Email" name="Name" required="">
+							</div>
+							<div class="styled-input">
+								<input type="password" placeholder="Mot de passe" name="password" required="">
+							</div>
+							<input type="submit" value="Se connecter">
+						</form>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!-- //Modal content-->
+		</div>
+	</div>
+	<!-- //Modal1 -->
+	<!-- //signin Model -->
+	<!-- signup Model -->
+	<!-- Modal2 -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body modal-body-sub_agile">
+					<div class="main-mailposi">
+						<span class="fa fa-envelope-o" aria-hidden="true"></span>
+					</div>
+					<div class="modal_body_left modal_body_left1">
+						<h3 class="agileinfo_sign">Créer mon compte</h3>
+						<p>
+							Rejoingnez la communauté Boobookshop !
+						</p>
+						<form action="#" method="post">
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" placeholder="Nom" name="Name" required="">
+							</div>
+							<div class="styled-input">
+								<input type="email" placeholder="E-mail" name="Email" required="">
+							</div>
+							<div class="styled-input">
+								<input type="password" placeholder="Mot de passe" name="password" id="password1"
+									required="">
+							</div>
+							<div class="styled-input">
+								<input type="password" placeholder="Confirmer le mot de passe" name="Confirm Password"
+									id="password2" required="">
+							</div>
+							<input type="submit" value="S'enregistrer">
+						</form>
+						<p>
+							En cliquant sur s'inscrire, j'accepte les <a href="#">conditions d'utilisation</a>.
+						</p>
+						<br>
+						<p>Avez-vous déjà un compte ?</p><a href="love.html">
+							S'identifier</a>
+					</div>
+				</div>
+			</div>
+			<!-- //Modal content-->
+		</div>
+	</div>
+	<!-- //Modal2 -->
+	<!-- navigation -->
+	<div class="ban-top" style="background-color: white;">
+		<div class="container">
+			<div class="top_nav_left">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav menu__list">
+								<li class="active">
+									<a class="nav-stylehead" href="index.html">Accueil
+										<!-- <span class="sr-only">(current)</span> -->
+									</a>
+								</li>
+								<!-- <li class="dropdown">
+									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kitchen
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu multi-column columns-3">
+										<div class="agile_inner_drop_nav_info">
+											<div class="col-sm-4 multi-gd-img">
+												<ul class="multi-column-dropdown">
+													<li>
+														<a href="product.html">Bakery</a>
+													</li>
+													<li>
+														<a href="product.html">Baking Supplies</a>
+													</li>
+													<li>
+														<a href="product.html">Coffee, Tea & Beverages</a>
+													</li>
+													<li>
+														<a href="product.html">Dried Fruits, Nuts</a>
+													</li>
+													<li>
+														<a href="product.html">Sweets, Chocolate</a>
+													</li>
+													<li>
+														<a href="product.html">Spices & Masalas</a>
+													</li>
+													<li>
+														<a href="product.html">Jams, Honey & Spreads</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-sm-4 multi-gd-img">
+												<ul class="multi-column-dropdown">
+													<li>
+														<a href="product.html">Pickles</a>
+													</li>
+													<li>
+														<a href="product.html">Pasta & Noodles</a>
+													</li>
+													<li>
+														<a href="product.html">Rice, Flour & Pulses</a>
+													</li>
+													<li>
+														<a href="product.html">Sauces & Cooking Pastes</a>
+													</li>
+													<li>
+														<a href="product.html">Snack Foods</a>
+													</li>
+													<li>
+														<a href="product.html">Oils, Vinegars</a>
+													</li>
+													<li>
+														<a href="product.html">Meat, Poultry & Seafood</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-sm-4 multi-gd-img">
+												<img src="images/nav.png" alt="">
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</ul>
+								</li> -->
+
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Rentrée
+										Scolaire
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="product.html">Préréserver vos livres
+											</a>
+										</li>
+										<li>
+											<a href="product.html">Commander vos livres
+											</a>
+										</li>
+										<li>
+											<a href="product.html">Echanger vos livres
+											</a>
+										</li>
+										<li>
+											<a href="product.html">Découvrer les livres
+											</a>
+										</li>
+										<li>
+											<a href="product.html">Localiser des livres </a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Livres en
+										vedette
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="product2.html">Best Sellers
+											</a>
+										</li>
+										<li>
+											<a href="product2.html">Les mieux notés
+											</a>
+										</li>
+										<li>
+											<a href="product2.html">Nouveaux talents</a>
+										</li>
+										<li>
+											<a href="product2.html">Coups de cœur
+											</a>
+										</li>
+										<li>
+											<a href="product2.html">Nouvelles sorties
+											</a>
+										</li>
+										<li>
+											<a href="product2.html">Bientôt disponibles </a>
+										</li>
+										<li>
+											<a href="product2.html"> Sponsorisés </a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#"
+										data-toggle="dropdown">Généralistes
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="icons.html">Fictions</a>
+										</li>
+										<li>
+											<a href="typography.html">Poésie</a>
+										</li>
+										<li>
+											<a href="typography.html">Drame</a>
+										</li>
+										<li>
+											<a href="typography.html">Sport</a>
+										</li>
+										<li>
+											<a href="typography.html">Non Fiction</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Arts et
+										sciences
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="icons.html">Mathématiques</a>
+										</li>
+										<li>
+											<a href="typography.html">Droit</a>
+										</li>
+										<li>
+											<a href="typography.html">Langues</a>
+										</li>
+										<li>
+											<a href="typography.html">Informatique</a>
+										</li>
+										<li>
+											<a href="typography.html">Technologie</a>
+										</li>
+										<li>
+											<a href="typography.html">Agriculture</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown"> Jenesse
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="icons.html">Enfants</a>
+										</li>
+										<li>
+											<a href="typography.html">Adolescents</a>
+										</li>
+										<li>
+											<a href="typography.html">Jeunes adultes</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Numériques
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="icons.html">E-Book</a>
+										</li>
+										<li>
+											<a href="typography.html">Livres audio</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Services
+										Spécialisés
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="icons.html">Entreprise
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Bibliothèques à l’école
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Presse et revues
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Soutien scolaire
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Epreuves et concours
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Corrections de sujet
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Collecte de livres
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Actualités
+										éducation
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="typography.html">Calendriers concours
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Liste de livres
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Concours d'expression
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Distribution de livres
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Carte de
+										vœux
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu agile_short_dropdown">
+										<li>
+											<a href="icons.html">Naissance
+											</a>
+										</li>
+										<li>
+											<a href="typography.html">Anniversaire</a>
+										</li>
+										<li>
+											<a href="typography.html">Mariage</a>
+										</li>
+										<li>
+											<a href="typography.html">Baptèmes</a>
+										</li>
+										<li>
+											<a href="typography.html">Noël</a>
+										</li>
+										<li>
+											<a href="typography.html">Tabaski</a>
+										</li>
+									</ul>
+								</li>
+								<!-- <li class="">
+									<a class="nav-stylehead" href="contact.html">Contact</a>
+								</li> -->
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- //navigation -->
+	<!-- banner -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color: white;">
+		<!-- Indicators-->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>La richesse du monde se trouve dans les
+							<span>BookBookins</span>
+						</h3>
+						<p style="padding-bottom: 0 !important;" class="new-font">Découvrez ce monde avec nous écrit.
+							<span></span>
+						</p>
+						<a class="button2" href="product.html">Commencer mes achats </a><br><br><br>
+					</div>
+				</div>
+			</div>
+			<div class="item item3">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Et si "un apprenant, un livre"? C'est encore
+							<span>meilleur</span>
+						</h3>
+						<p class="new-font">Découvrez nos offres scolaire à
+							<span style="color: red;">10%</span> de réduction
+						</p>
+						<a class="button2" href="product.html">Commencer mes achats </a><br><br><br>
+					</div>
+				</div>
+			</div>
+			<div class="item item2">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Des milliers de contenus à votre disposition
+							<span>Ici</span>
+						</h3>
+						<p class="new-font">
+							<span>N'attendez plus</span> !!
+						</p>
+						<a class="button2" href="product.html">Commencer mes achats </a><br><br><br>
+					</div>
+				</div>
+			</div>
+			<div class="item item4">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Des Livres numériques et audio pour plus de
+							<span>Flexibilité</span>
+						</h3>
+						<p class="new-font">Sur pc ou sur mobile, jamais sans mon
+							<span>BookBook</span>
+						</p>
+						<a class="button2" href="product.html">Commencer mes achats </a><br><br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- //banner -->
+
+	<!-- top Products -->
+	<div class="ads-grid">
+		<div class="container">
+			<!-- tittle heading -->
+
+
+			<!-- //tittle heading -->
+			<!-- product right -->
+			<div class="agileinfo-ads-display col-md-12">
+				<div class="wrapper" style="background-color: white;">
+					<!-- second section (nuts special) -->
+					<div class="product-sec1 product-sec2" style=" height: 200px;">
+						<div class="col-xs-7 effect-bg">
+							<h3 class="new-font">Offre spéciale </h3>
+							<h6 class="new-font">Rentrée Scolaire en bonheur</h6>
+							<!-- <p  style="margin-bottom: 10px;">Bénéficiez de 10% de réductions <br></p><br> -->
+						</div>
+						<h3 class="w3l-nut-middle">La rentrée</h3>
+						<div class="col-xs-5 bg-right-nut">
+							<!-- <img src="images/eleve.png" alt="" style=" height: 165px;"> -->
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- //second section (nuts special) -->
+					<!-- first section (nuts) -->
+					<div class="product-sec1">
+						<h3 class="heading-tittle new-font">A la une</h3>
+							<ul id="flexiselDemo2">
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> 00Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="col-md-12 product-men">
+										<div class="men-pro-item simpleCart_shelfItem">
+											<div class="single-product">
+												<div class="product-f-image men-thumb-item">
+													<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+													<div class="product-hover">
+														<a href="#" class="add-to-cart-link">
+															<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+														<a href="#" class="view-details-link"><i
+																class="fa fa-heart" style="font-size: 15px"></i></a>
+													</div>
+												</div>
+
+												<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+												<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+												<div class="info-product-price">
+													<span class="item_price">1 500 FCFA</span>
+													<!-- <del>2 000</del> -->
+												</div>
+												<div class="rating1">
+													<span class="starRating">
+														<ul>
+															<li>
+																<a href="#">
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<i class="fa fa-star-o" aria-hidden="true"></i>
+																	<!-- <span>3.0</span> -->
+																</a>
+															</li>
+														</ul>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						<div class="clearfix"></div>
+						<hr>
+						<a href="product.html">
+							<button class="new-font"
+								style="display: block; margin: auto; border: none; background-color: white; color: #1accfd; ">voir
+								plus</button></a>
+
+					</div>
+					<!-- //first section (nuts) -->
+					<!-- third section (oils) -->
+					<div class="product-sec1">
+						<h3 class="heading-tittle new-font">Rentrée scolaire</h3>
+						<ul id="flexiselDemo3">
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+						<hr>
+						<a href="product.html">
+							<button
+								style="display: block; margin: auto; border: none; background-color: white; color: #1accfd; ">voir
+								plus</button></a>
+					</div>
+					<!-- //third section (oils) -->
+					<!-- fourth section (noodles) -->
+					<div class="product-sec1">
+						<h3 class="heading-tittle new-font">Arts & sciences</h3>
+						<ul id="flexiselDemo4">
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="col-md-12 product-men">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="single-product">
+											<div class="product-f-image men-thumb-item">
+												<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+												<div class="product-hover">
+													<a href="#" class="add-to-cart-link">
+														<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+													<a href="#" class="view-details-link"><i
+															class="fa fa-heart" style="font-size: 15px"></i></a>
+												</div>
+											</div>
+
+											<h2><a href="single.html"><b style="
+													font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+											<h5><b style="
+													font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+											<div class="info-product-price">
+												<span class="item_price">1 500 FCFA</span>
+												<!-- <del>2 000</del> -->
+											</div>
+											<div class="rating1">
+												<span class="starRating">
+													<ul>
+														<li>
+															<a href="#">
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<!-- <span>3.0</span> -->
+															</a>
+														</li>
+													</ul>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+						<hr>
+						<a href="product.html">
+							<button
+								style="display: block; margin: auto; border: none; background-color: white; color: #1accfd; ">voir
+								plus</button></a>
+
+					</div>
+					<!-- //fourth section (noodles) -->
+				</div>
+			</div>
+			<!-- //product right -->
+		</div>
+	</div>
+	<!-- //top products -->
+	<!-- special offers -->
+	<br><br>
+	<div class="featured-section" id="projects">
+		<div class="container">
+			<!-- tittle heading -->
+			<h3 class="tittle-w3l new-font">Offres Speciale
+				<span class="heading-style">
+					<i></i>
+					<i></i>
+					<i></i>
+				</span>
+			</h3>
+			<!-- //tittle heading -->
+			<div class="content-bottom-in" style="background-color: white;">
+				<ul id="flexiselDemo1">
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="col-md-12 product-men">
+							<div class="men-pro-item simpleCart_shelfItem">
+								<div class="single-product">
+									<div class="product-f-image men-thumb-item">
+										<a href="single.html"><img src="images/m1.jpg" class="welcome-img" width="120px" alt=""></a>
+										<div class="product-hover">
+											<a href="#" class="add-to-cart-link">
+												<i class="fa fa-shopping-cart" style="font-size: 15px"></i></a>
+											<a href="#" class="view-details-link"><i class="fa fa-heart" style="font-size: 15px"></i></a>
+										</div>
+									</div>
+
+									<h2><a href="single.html"><b style="
+														font-family: Jazz LET, fantasy;">Titre:</b> Khadra</a></h2>
+									<h5><b style="
+														font-family: Jazz LET, fantasy;">Auteur:</b> Yasmina Khadra</h5>
+
+									<div class="info-product-price">
+										<span class="item_price">1 500 FCFA</span>
+										<!-- <del>2 000</del> -->
+									</div>
+									<div class="rating1">
+										<span class="starRating">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+														<!-- <span>3.0</span> -->
+													</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //special offers -->
+	<!-- newsletter -->
+	<div class="footer-top">
+		<div class="container-fluid">
+			<div class="col-xs-12 agile-leftmk">
+				<h2 class="new-font">Souscrivez à notez boîte aux lettre.</h2>
+				<p>Restez à l'écoute. <br> Faites-vous livrer vos produits libraires par des magasins locaux <br>
+					Livraison gratuite sur votre première commande !</p>
+				<form action="#" method="post">
+					<input type="email" placeholder="E-mail" name="email" required="">
+					<input type="submit" value="Souscrire">
+				</form>
+				<div class="newsform-w3l">
+					<span class="fa fa-envelope-o" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="col-xs-4 w3l-rightmk">
+				<!-- <img src="images/mail.png" alt=" "> -->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<!-- footer second section -->
+			<div class="w3l-grids-footer">
+				<div class="col-xs-4 offer-footer">
+					<div class="col-xs-4 icon-fot">
+						<span class="fa fa-map-marker" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-8 text-form-footer">
+						<h3>Livraison à domicile</h3>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-xs-4 offer-footer">
+					<div class="col-xs-4 icon-fot">
+						<span class="fa fa-refresh" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-8 text-form-footer">
+						<h3>Echangez vos livres</h3>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-xs-4 offer-footer">
+					<div class="col-xs-4 icon-fot">
+						<span class="fa fa-credit-card" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-8 text-form-footer">
+						<h3>Paiement Flexible </h3>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- //footer second section -->
+			<!-- footer third section -->
+			<div class="footer-info w3-agileits-info">
+				<!-- quick links -->
+				<div class="col-sm-5 address-right">
+					<div class="col-xs-6 footer-grids">
+						<h3>Catégories</h3>
+						<ul>
+							<li>
+								<a href="#">Rentrée Scolaire</a>
+							</li>
+							<li>
+								<a href="#">Livres en vedette</a>
+							</li>
+							<li>
+								<a href="#">Généralistes</a>
+							</li>
+							<li>
+								<a href="#">Art & Sciences</a>
+							</li>
+							<li>
+								<a href="#">Jenesse</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 footer-grids">
+						<h3>Encore plus</h3>
+						<ul>
+							<li>
+								<a href="#"> Nos récompenses</a>
+							</li>
+							<li>
+								<a href="#"> Inscriptions aux newsletters</a>
+							</li>
+							<li>
+								<a href="#"> Signaler une erreur </a>
+							</li>
+							<li>
+								<a href="#"> Trouver un libraire</a>
+							</li>
+							<li>
+								<a href="#"> Partager avec des amis</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-5 address-right">
+					<div class="col-xs-6 footer-grids">
+						<h3>A propos</h3>
+						<ul>
+							<li>
+								<a href="about.html">Qui sommes-nous?</a>
+							</li>
+							<li>
+								<a href="#">Nos partenaires</a>
+							</li>
+							<li>
+								<a href="contact.html">Nous contacter</a>
+							</li>
+							<li>
+								<a href="privacy.html">conditions d'utilisations</a>
+							</li>
+							<li>
+								<a href="./privacy.html">Politique de confidentialité</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 footer-grids">
+						<h3>Prenez contact</h3>
+						<ul>
+							<li>
+								<i class="fa fa-map-marker"></i> 123 Biyem-Assi, Yaoundé.
+							</li>
+							<li>
+								<i class="fa fa-phone"></i> +237 696 100 982
+							</li>
+							<li>
+								<i class="fa fa-whatsapp"></i> +237 696 100 982
+							</li>
+							<li>
+								<i class="fa fa-envelope-o"></i>
+								<a href="contact@bookbookshop.com"> contact@bookbookshop.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //quick links -->
+				<!-- social icons -->
+				<div class="col-sm-2 footer-grids  w3l-socialmk">
+					<h3>Suivez-nous</h3>
+					<div class="social">
+						<ul>
+							<li>
+								<a class="icon"
+									style="background: linear-gradient(to top, rgb(35, 35, 181), rgb(237, 100, 100));"
+									href="#">
+									<i class="fa fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a class="icon fb" href="https://www.facebook.com/bookbookshop.com2019" target="_blank">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a class="icon" style="background-color: green;" href="#">
+									<i class="fa fa-whatsapp"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //social icons -->
+				<div class="clearfix"></div>
+			</div>
+			<!-- //footer third section -->
+			<!-- footer fourth section (text) -->
+			<div class="agile-sometext">
+				<div class="sub-some">
+					<h5>Book Shopping</h5>
+					<p>Commandez en ligne. Tous vos produits libraire préférés à bas prixs prix et les livraisons à
+						domicile dans les villes de
+						Douala, Yaoundé et d'autres villes du Cameroun.</p>
+				</div>
+				<!-- brands -->
+				<!-- //brands -->
+				<!-- payment -->
+				<div class="sub-some child-momu">
+					<h5>Mode de paiement disponibles</h5>
+					<ul>
+						<li>
+							<img src="images/om.png" alt="">
+						</li>
+						<li>
+							<img src="images/momo.png" alt="">
+						</li>
+						<li>
+							<img src="images/cash.png" alt="">
+						</li>
+						<li>
+							<img src="images/pay2.png" alt="">
+						</li>
+						<!-- <li>
+							<img src="images/pay5.png" alt="">
+						</li> -->
+						<li>
+							<img src="images/pay1.png" alt="">
+						</li>
+						<li>
+							<img src="images/paypal.png" alt="">
+						</li>
+						<!-- <li>
+							<img src="images/pay8.png" alt="">
+						</li>
+						<li>
+							<img src="images/pay9.png" alt="">
+						</li> -->
+					</ul>
+				</div>
+				<!-- //payment -->
+			</div>
+			<!-- //footer fourth section (text) -->
+		</div>
+	</footer>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="copy-right">
+		<div class="container">
+			<p>© 2022 Bookbookshop. Tous droits réservés
+				<!-- | Réalisé par
+				<a href="http://yabain.com"> Yaba-In.</a> -->
+			</p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<a id="toTop" class="toTop" href="#" style="display: inline;">
+		<span id="toTopHover" style="opacity: 0;"></span> To Top</a>
+
+	<!-- js-files -->
+	<!-- jquery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- //jquery -->
+
+	<!-- popup modal (for signin & signup)-->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+
+		});
+	</script>
+	<!-- Large modal -->
+	<!-- <script>
+		$('#').modal('show');
+	</script> -->
+	<!-- //popup modal (for signin & signup)-->
+
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+		paypalm.minicartk.render(); //use only unique class names other than paypalm.minicartk.Also Replace same class name in css and minicart.min.js
+
+		paypalm.minicartk.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 0) {
+				alert('La quantité minimale d\'articles dans votre panier pour finaliser vos achat est de 1. Veuillez continuer vos achat.');
+				evt.preventDefault();
+			}
+		});
+	</script>
+	<!-- //cart-js -->
+
+	<!-- price range (top products) -->
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		//<![CDATA[ 
+		$(window).load(function () {
+			$("#slider-range").slider({
+				range: true,
+				min: 0,
+				max: 9000,
+				values: [50, 6000],
+				slide: function (event, ui) {
+					$("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+				}
+			});
+			$("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+
+		}); //]]>
+	</script>
+	<!-- //price range (top products) -->
+
+	<!-- flexisel (for special offers) -->
+	<script src="js/jquery.flexisel.js"></script>
+	<script>
+		$(window).load(function () {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 5,
+				animationSpeed: 1500,
+				autoPlay: true,
+				autoPlaySpeed: 5000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 480,
+						visibleItems: 1
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 2
+					}
+				}
+			});
+
+		});
+		$(window).load(function () {
+			$("#flexiselDemo2").flexisel({
+				visibleItems: 5,
+				animationSpeed: 100,
+				autoPlay: true,
+				autoPlaySpeed: 10000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 400,
+						visibleItems: 2
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 4
+					}
+				}
+			});
+
+		});
+		$(window).load(function () {
+			$("#flexiselDemo3").flexisel({
+				visibleItems: 5,
+				animationSpeed: 100,
+				autoPlay: true,
+				autoPlaySpeed: 11000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 400,
+						visibleItems: 2
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 4
+					}
+				}
+			});
+
+		});
+		$(window).load(function () {
+			$("#flexiselDemo4").flexisel({
+				visibleItems: 5,
+				animationSpeed: 100,
+				autoPlay: true,
+				autoPlaySpeed: 9000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 400,
+						visibleItems: 2
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 4
+					}
+				}
+			});
+
+		});
+	</script>
+	<!-- //flexisel (for special offers) -->
+
+	<!-- password-script -->
+	<script>
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+
+	<!-- smoothscroll -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smoothscroll -->
+
+	<!-- start-smooth-scrolling -->
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+
+	<!-- smooth-scrolling-of-move-up -->
+	<script>
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- //js-files -->
+
+
+</body>
+
+</html>

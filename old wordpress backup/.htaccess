@@ -1,0 +1,19 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^old\.bookbookshop\.com$
+RewriteRule ^/?$ "https\:\/\/old\.bookbookshop\.com\/" [R=301,L]
+
+
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+
+# END WordPress
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
