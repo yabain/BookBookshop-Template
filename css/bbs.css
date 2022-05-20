@@ -1762,7 +1762,7 @@ select option
         float: left;
     }
     .text-form-footer h3 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .invisible {
@@ -1801,11 +1801,11 @@ select option
     .offer-footer {
         padding: 0;
         float: none;
-        width: 100%;
+        width: 50%;
     }
 
     .offer-footer:nth-child(2) {
-        margin: 17px 0;
+        margin: 10px 0;
     }
 
     .icon-fot span {
@@ -1832,7 +1832,7 @@ select option
         float: left;
     }
     .text-form-footer h3 {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .invisible {
@@ -1898,8 +1898,8 @@ body {
 }
 
 footer {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
 
 /*-- video --*/
