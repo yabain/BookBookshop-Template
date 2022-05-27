@@ -1934,3 +1934,7 @@ footer {
 tr:hover{
     color: white !important;
 }
+.bfond
+{
+	background-image: url(images\rentrer.jpg);
+}

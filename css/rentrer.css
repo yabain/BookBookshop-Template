@@ -1,0 +1,17 @@
+body
+{
+    background-image: url(images\rentrer.jpg);
+    background-attachment: fixed;/*pour fixer l'amage*/
+	background-repeat: no-repeat;
+
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.takal
+{
+    font-size: 5em;
+}
