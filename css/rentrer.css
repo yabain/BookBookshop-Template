@@ -1,17 +1,188 @@
-body
+.jump
 {
-    background-image: url(images\rentrer.jpg);
-    background-attachment: fixed;/*pour fixer l'amage*/
-	background-repeat: no-repeat;
-
+background-color: #fff;
 }
-img
+
+.jump nav
 {
+    font-family: Century Gothic !important;
+    margin-right: auto;
+    padding-right: 160px;
+    text-align: justify;
+    height: 20vh;
+    width: 50%;
+    position: relative;
+    
+}
+.jump nav span 
+{
+    font-size: 1.2em;
+    position: absolute;
+    left: 125px; 
+    bottom: 80px;
+}
+
+
+/* button
+{
+    display: inline-block;
+    color: aliceblue;
+	background: palevioletred;
+	border-radius: 5px;
+	height: 48px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+    left: 255px;
+    border-color: aqua;
+} */
+
+
+.jump header
+{
+    margin-right: auto;
+    padding-right: 160px;
+    height: 20vh;
+    width: 20%;
+    position: relative;
+}
+.jump header img
+{
+    height: 50%;  
+    width: 90%;
+    position: absolute;
+    left: 108px;  
+}
+.jump nav .swiper
+{
+    height: 50vh;
+    width: 75vh;
+    bottom: -40px;
+    left: 60px;
+}
+.jump nav p
+{
+    background-color: #e5546c;
+    border-radius: 0 180px 180px 0;
+    font-family: Century Gothic !important;
+    color: #fff;
+    position: absolute;
+    height: 13vh;
+    width: 65%;
+    bottom: -395px;
+    left: 150px;
+}
+.jump nav b
+{
+    background-color: #e5546c;
+    border-radius: 10px;
+    font-family: Century Gothic !important;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    height: 4vh;
+    width: 55%;
+    bottom: -420px;
+    left: 160px;
+}
+/*section de droite*/
+.jump section
+{
+    font-family: Century Gothic !important;
+    margin-right: auto;
+    padding-right: 160px;
+    text-align: justify;
+    height: 75vh;
+    width: 80%;
+    position: relative;
+    bottom: 90px;
+    left: -50px;
+}
+
+.jump .box
+{
+    /* background-color: darkmagenta; */
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.takal
+.jump .main 
 {
-    font-size: 5em;
+    width: 50%;
+    height: 100%;
+
 }
+.jump .aside
+{
+    width: 70%;
+}
+/* for the tab jump*/
+
+/* Style the tab */
+.jump .tab {
+  overflow: hidden;
+  border: 1px solid #e5546c;
+  background-color: #e5546c;
+  color: #fff;
+  width: 100vh;
+}
+
+/* Style the buttons inside the tab */
+.jump .tab button {
+  color: #fff;
+  background-color: #e5546c;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.jump .tab button:hover {
+  background-color: #e5546c;
+}
+
+/* Create an active/current tablink class */
+.jump .tab button.active {
+  background-color: #e5546c;
+}
+
+/* Style the tab content */
+.jump .tabcontent {
+  color: #fff;
+  display: none;
+  padding: 6px 12px;
+  width: 100vh;
+  height: 81vh;
+  border: 1px solid #e5546c;
+  border-top: none;
+  background-color: #e5546c;
+}
+.jump .vous
+{
+    font-family: Century Gothic !important;
+    text-align: center;
+}
+
+.jump table th
+{
+    border: 2px solid black;
+    background-color: #fff;
+    color: black;
+    /* width: 10vh; */
+    height: 30px;
+}
+.jump table
+{
+    display: flex;
+    position:absolute ;
+    bottom: -55px;
+}
+

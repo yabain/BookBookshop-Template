@@ -1,41 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<html class="no-js">
+
 <head>
-    <!-- Basic Page Needs -->
-    <meta charset="utf-8">
-    <title>BookBookshop</title> 
-    <meta name="author" content="">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="images/bbs/icon.png">
-
-    <!-- FONTS -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
-
-    <!-- CSS -->
-    <link rel='stylesheet' href='css/bbs.css'>
-    <link rel="stylesheet" href="rentrer.css">
-    <link rel='stylesheet' href='css/global.css'>
-    <link rel='stylesheet' href='css/structure.css'>
-    <link rel='stylesheet' id='style-static' href='css/be_style.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Revolution Slider -->
-    <link rel="stylesheet" href="plugins/rs-plugin/css/settings.css">
-
-    <!-- meta -->
-    <meta name="description"
-        content="Bookbookshop.com - Bookstore africaine en ligne de référence, Livres physiques et numériques, expédition à travers le monde.">
-
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\rentrer.css">
+    <link rel='stylesheet' href='css\bbs.css'>
+    <title>Rentrer</title>
 </head>
-<body id="bfond">
-   <nav id="takal" style="margin-left: 0px;"> <strong>BACK TO SCHOOL</strong></nav>
-    <button>Learn More</button>
+
+<body>
+
+    <div class="jump">
+        <header>
+            <img id="logo" src="https://bookbookshop.com/wp-content/uploads/2019/07/logo-1024x181.png" alt="bbs_logo">
+        </header>
+        <div class="box">
+            <div class="main">
+                <nav>
+                    <span>
+                        <h1 style="font-size: 1.2em;">Profitez d’une rentrée 100% ZEN : </h1>
+                        <ul style="font-weight: bold; ">
+                            <li>Zéro Stress</li>
+                            <li>Zéro Bousculade</li>
+                            <li>Zéro Embouteillage</li>
+                            <li>Zéro Perte de temps</li>
+                        </ul>
+                    </span>
+                    <div class="swiper">
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.css">
+                        <style>
+                            img {
+                                width: 420px;
+                                height: 420px;
+                            }
+                        </style>
+
+                        <div class="swiper">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <img src="images\Image1.png" alt="" srcset="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="rentrerbbs\kit-rentree-scolaire-college.webp" alt="" srcset="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images\rentrer.jpg" alt="">
+                                </div>
+                                ...
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+
+
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+
+                        </div>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.js"></script>
+                        <script>
+                            const swiper = new Swiper('.swiper', {
+                                // Optional parameters
+                                direction: 'horizontal',
+                                loop: true,
+
+                                // If we need pagination
+                                pagination: {
+                                    el: '.swiper-pagination',
+                                },
+
+                                // Navigation arrows
+                                navigation: {
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                },
+
+                            });
+                        </script>
+                    </div>
+                    <br>
+                    <p style="font-size: 0.95em;">
+                        Comme des centaines de familles, <br>
+                        passez votre commande, faites une <br>
+                        réservation ou offrez des livres à vos <br>
+                        proches plus attendre. <br>
+                    </p>
+
+                    <b style="font-size: 1em;">
+                        Nous nous occupons de tout!
+                    </b>
+                </nav>
+
+            </div>
+
+            <div class="aside">
+                <aside>
+                    <section>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'London')">1</button>
+                            <button class="tablinks" onclick="openCity(event, 'Paris')">2</button>
+                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">3</button>
+                        </div>
+                        <!-- 1 -->
+                        <div id="London" class="tabcontent">
+                            <div class="vous">
+                                <h3
+                                    style="border-radius: 5px;position:relative ;left: 300px; width: 20vh;  background-color: #fff;color: black;  ">
+                                    Vous</h3>
+                                <p style="color: #fff; font-size: 1.2em;">Aucune de vos données personnelles ne sera
+                                    communiquée à des tiers
+                                </p>
+                                <form method="post" style="font-family: Century Gothic !important ;">
+
+                                    <b style="position:absolute ; left: 15px; text-align: left; ">Civilité*</b>
+                                    <b style="position:absolute ; left: 150px; text-align: justify; ">Prénom*</b>
+                                    <b style="position:absolute ; left: 325px; text-align: left; ">Nom*</b>
+                                    <br>
+                                    <select class="combo2"
+                                        style="position: absolute ; color: black; left: 8px; text-align:center ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                        <option>Monsieur </option>
+                                        <option>Madame</option>
+                                    </select>
+                                    <input
+                                        style="position: absolute ; left: 140px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                        type="text">
+                                    <input
+                                        style="position: absolute ; left: 320px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                        type="text">
+                                    <br>
+                                    <p style="color:#fff ; position:absolute ; left: 15px; text-align: left; ">
+                                        <b>Votre N° de téléphone WhatsApp* </b>
+                                        <br>
+                                        <b style="font-weight: normal;">(Pour l’envoi des devis et factures)</b>
+                                    </p>
+                                    <br><br><br>
+                                    <select class="combo"
+                                        style="position: absolute ; color: black; left: 8px; text-align:left ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                        <option>+237</option>
+                                        <option>+33</option>
+                                        <option>+44</option>
+                                        <option>+49</option>
+                                        <option>+33</option>
+                                        <option>+1</option>
+                                    </select>
+                                    <input id="tel"
+                                        style="position: absolute ; left: 98px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                        type="text">
+                                    <b style="position: absolute ; left: 259px;">Représentez-vous une association ?
+                                    </b>
+                                    <b style="position: absolute ; left: 549px;">
+                                        <input type="radio" id="html" name="fav_language" value="HTML" checked>
+                                        <label for="html">Oui</label>
+                                        <input type="radio" id="css" name="fav_language" value="CSS">
+                                        <label for="css">Non</label><br>
+                                    </b> <br>
+                                    <p style="color: #fff;position: absolute ; left: 10px; font-size: 1em; ">Nom de
+                                        l’association
+                                    </p>
+                                    <br><br>
+                                    <input
+                                        style="position: absolute ; left: 10px; text-align:left ; height: 25px; width: 30vh !important; border-radius: 5px;"
+                                        type="text">
+                                </form>
+                                <br>
+                                <h3
+                                    style="border-radius: 5px; position:relative ; left: 250px; width: 30vh;  background-color: #fff;color: black;  ">
+                                    Votre besoin</h3>
+                                <p
+                                    style=" position:relative ; bottom: 20px; left: 145px; width: 60vh; height: 30px;color: #fff; ">
+                                    Nous vous garantissons les prix homologués par l’état pour
+                                    l’ensemble des livres scolaires officiels
+                                </p>
+                                <form method="post" style="font-family: Century Gothic !important ;">
+                                    <b style="position:absolute ;font-weight:normal; left: 1px; text-align: left; ">Sélectionner
+                                        une classe</b>
+                                    <b
+                                        style="position:absolute ;font-weight:normal; left: 200px; text-align: justify; ">Sélectionner
+                                        les livres</b>
+                                    <b style="position:absolute ;font-weight:normal; left: 425px; text-align: center; ">Cliquer
+                                        sur + pour ajouter votre sélection</b>
+                                    <br>
+                                    <select class="combo"
+                                        style="position: absolute ; color: black; left: 1px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
+                                        <option></option>
+                                        <option>Terminale ES </option>
+                                        <option>Premiere</option>
+                                        <option>seconde</option>
+                                        <option>3eme</option>
+                                        <option>4eme</option>
+                                    </select>
+                                    <select class="combo"
+                                        style="position: absolute ; color: black; left: 200px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
+                                        <option></option>
+                                        <option>Tourbillons de Passion</option>
+                                        <option>Major en math</option>
+                                        <option>Major en Francais</option>
+                                        <option>kaizen</option>
+                                        <option>Otaku</option>
+                                    </select>
+                                    <img style="height: 50px;width: 50px; position:absolute ; left: 616px; bottom: -10px; "
+                                        src="images\plus.png" alt="plus">
+                                    <br>
+                                    <p style="color: #fff; font-size: 1em;">Votre sélection</p>
+                                    <table>
+                                        <tr>
+                                            <th style="width: 10vh;">Classe</th>
+                                            <th style="width: 35vh;">Titre (Matière | Titre (éditeur))</th>
+                                            <th style="width: 15vh;">Quantité</th>
+                                            <th style="width: 20vh;">Prix total</th>
+                                        </tr>
+                                    </table>
+                                </form>
+
+
+
+
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div id="Paris" class="tabcontent">
+                            <div>
+
+                            </div>
+                            <h3>Paris</h3>
+                            <p>Paris is the capital of France.</p>
+                        </div>
+                        <!-- 3 -->
+                        <div id="Tokyo" class="tabcontent">
+                            <h3>Tokyo</h3>
+                            <p>Tokyo is the capital of Japan.</p>
+                        </div>
+
+                        <script>
+                            function openCity(evt, cityName) {
+                                var i, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablinks");
+                                for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                }
+                                document.getElementById(cityName).style.display = "block";
+                                evt.currentTarget.className += " active";
+                            }
+                        </script>
+                    </section>
+                </aside>
+
+
+            </div>
+        </div>
+        
+    </div>
+
 </body>
+
 </html>
