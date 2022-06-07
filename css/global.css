@@ -6843,7 +6843,7 @@ ul.clients li .client_wrapper, ul.clients li .client_wrapper img {
 	border-radius: 10px 10px 10px 10px;
 	color: #eceff1;
 	background-color: #060606cc;
-	display: none;
+	display: flex;
 	font-size: 20px !important;
 	height: 50px;
 	line-height: 70px;
