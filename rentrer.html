@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/bbs/icon.png">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+
+
     <link rel="stylesheet" href="css\rentrer.css">
     <link rel='stylesheet' href='css\bbs.css'>
     <title>Rentrer</title>
+
 </head>
 
 <body>
@@ -100,164 +113,321 @@
 
             <div class="aside">
                 <aside>
-                    <section>
-                        <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'London')">1</button>
-                            <button class="tablinks" onclick="openCity(event, 'Paris')">2</button>
-                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">3</button>
-                        </div>
+                    <section style="background-color: #e5546c;">
                         <!-- 1 -->
-                        <div id="London" class="tabcontent">
-                            <div class="vous">
-                                <h3
-                                    style="border-radius: 5px;position:relative ;left: 300px; width: 20vh;  background-color: #fff;color: black;  ">
-                                    Vous</h3>
-                                <p style="color: #fff; font-size: 1.2em;">Aucune de vos données personnelles ne sera
-                                    communiquée à des tiers
-                                </p>
-                                <form method="post" style="font-family: Century Gothic !important ;">
+                        <!-- <div id="London" class="tabcontent"> -->
 
-                                    <b style="position:absolute ; left: 15px; text-align: left; ">Civilité*</b>
-                                    <b style="position:absolute ; left: 150px; text-align: justify; ">Prénom*</b>
-                                    <b style="position:absolute ; left: 325px; text-align: left; ">Nom*</b>
-                                    <br>
-                                    <select class="combo2"
-                                        style="position: absolute ; color: black; left: 8px; text-align:center ; height: 25px; width: 10vh !important; border-radius: 5px;">
-                                        <option>Monsieur </option>
-                                        <option>Madame</option>
-                                    </select>
-                                    <input
-                                        style="position: absolute ; left: 140px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
-                                        type="text">
-                                    <input
-                                        style="position: absolute ; left: 320px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
-                                        type="text">
-                                    <br>
-                                    <p style="color:#fff ; position:absolute ; left: 15px; text-align: left; ">
-                                        <b>Votre N° de téléphone WhatsApp* </b>
-                                        <br>
-                                        <b style="font-weight: normal;">(Pour l’envoi des devis et factures)</b>
-                                    </p>
-                                    <br><br><br>
-                                    <select class="combo"
-                                        style="position: absolute ; color: black; left: 8px; text-align:left ; height: 25px; width: 10vh !important; border-radius: 5px;">
-                                        <option>+237</option>
-                                        <option>+33</option>
-                                        <option>+44</option>
-                                        <option>+49</option>
-                                        <option>+33</option>
-                                        <option>+1</option>
-                                    </select>
-                                    <input id="tel"
-                                        style="position: absolute ; left: 98px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
-                                        type="text">
-                                    <b style="position: absolute ; left: 259px;">Représentez-vous une association ?
-                                    </b>
-                                    <b style="position: absolute ; left: 549px;">
-                                        <input type="radio" id="html" name="fav_language" value="HTML" checked>
-                                        <label for="html">Oui</label>
-                                        <input type="radio" id="css" name="fav_language" value="CSS">
-                                        <label for="css">Non</label><br>
-                                    </b> <br>
-                                    <p style="color: #fff;position: absolute ; left: 10px; font-size: 1em; ">Nom de
-                                        l’association
-                                    </p>
-                                    <br><br>
-                                    <input
-                                        style="position: absolute ; left: 10px; text-align:left ; height: 25px; width: 30vh !important; border-radius: 5px;"
-                                        type="text">
-                                </form>
+                        <div class="vous">
+                            <h3
+                                style="border-radius: 5px;position:relative ;left: 300px; width: 20vh;  background-color: #fff;color: black;  ">
+                                Vous</h3>
+                            <p style="color: #fff; font-size: 1.2em;">Aucune de vos données personnelles ne sera
+                                communiquée à des tiers
+                            </p>
+                            <form method="post" style="font-family: Century Gothic !important ;">
+
+                                <b style="position:absolute ; left: 15px; text-align: left; ">Civilité*</b>
+                                <b style="position:absolute ; left: 150px; text-align: justify; ">Prénom*</b>
+                                <b style="position:absolute ; left: 325px; text-align: left; ">Nom*</b>
                                 <br>
-                                <h3
-                                    style="border-radius: 5px; position:relative ; left: 250px; width: 30vh;  background-color: #fff;color: black;  ">
-                                    Votre besoin</h3>
-                                <p
-                                    style=" position:relative ; bottom: 20px; left: 145px; width: 60vh; height: 30px;color: #fff; ">
-                                    Nous vous garantissons les prix homologués par l’état pour
-                                    l’ensemble des livres scolaires officiels
+                                <select class="combo2"
+                                    style="position: absolute ; color: black; left: 8px; text-align:center ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                    <option>Monsieur </option>
+                                    <option>Madame</option>
+                                </select>
+                                <input
+                                    style="position: absolute ; left: 140px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                    type="text">
+                                <input
+                                    style="position: absolute ; left: 320px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                    type="text">
+                                <br>
+                                <p style="color:#fff ; position:absolute ; left: 15px; text-align: left; ">
+                                    <b>Votre N° de téléphone WhatsApp* </b>
+                                    <br>
+                                    <b style="font-weight: normal;">(Pour l’envoi des devis et factures)</b>
                                 </p>
-                                <form method="post" style="font-family: Century Gothic !important ;">
-                                    <b style="position:absolute ;font-weight:normal; left: 1px; text-align: left; ">Sélectionner
-                                        une classe</b>
-                                    <b
-                                        style="position:absolute ;font-weight:normal; left: 200px; text-align: justify; ">Sélectionner
-                                        les livres</b>
-                                    <b style="position:absolute ;font-weight:normal; left: 425px; text-align: center; ">Cliquer
-                                        sur + pour ajouter votre sélection</b>
-                                    <br>
-                                    <select class="combo"
-                                        style="position: absolute ; color: black; left: 1px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
-                                        <option></option>
-                                        <option>Terminale ES </option>
-                                        <option>Premiere</option>
-                                        <option>seconde</option>
-                                        <option>3eme</option>
-                                        <option>4eme</option>
-                                    </select>
-                                    <select class="combo"
-                                        style="position: absolute ; color: black; left: 200px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
-                                        <option></option>
-                                        <option>Tourbillons de Passion</option>
-                                        <option>Major en math</option>
-                                        <option>Major en Francais</option>
-                                        <option>kaizen</option>
-                                        <option>Otaku</option>
-                                    </select>
-                                    <img style="height: 50px;width: 50px; position:absolute ; left: 616px; bottom: -10px; "
-                                        src="images\plus.png" alt="plus">
-                                    <br>
-                                    <p style="color: #fff; font-size: 1em;">Votre sélection</p>
-                                    <table>
-                                        <tr>
-                                            <th style="width: 10vh;">Classe</th>
-                                            <th style="width: 35vh;">Titre (Matière | Titre (éditeur))</th>
-                                            <th style="width: 15vh;">Quantité</th>
-                                            <th style="width: 20vh;">Prix total</th>
-                                        </tr>
-                                    </table>
-                                </form>
+                                <br><br><br>
+                                <select class="combo"
+                                    style="position: absolute ; color: black; left: 8px; text-align:left ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                    <option>+237</option>
+                                    <option>+33</option>
+                                    <option>+44</option>
+                                    <option>+49</option>
+                                    <option>+33</option>
+                                    <option>+1</option>
+                                </select>
+                                <input id="tel"
+                                    style="position: absolute ; left: 98px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                    type="text">
+                                <b style="position: absolute ; left: 259px;">Représentez-vous une association ?
+                                </b>
+                                <b style="position: absolute ; left: 549px;">
+                                    <input type="radio" id="html" name="fav_language" value="HTML" checked>
+                                    <label for="html">Oui</label>
+                                    <input type="radio" id="css" name="fav_language" value="CSS">
+                                    <label for="css">Non</label><br>
+                                </b> <br>
+                                <p style="color: #fff;position: absolute ; left: 10px; font-size: 1em; ">Nom de
+                                    l’association
+                                </p>
+                                <br><br>
+                                <input
+                                    style="position: absolute ; left: 10px; text-align:left ; height: 25px; width: 30vh !important; border-radius: 5px;"
+                                    type="text">
+                            </form>
+                            <br>
+                            <h3
+                                style="border-radius: 5px; position:relative ; left: 250px; width: 30vh;  background-color: #fff;color: black;  ">
+                                Votre besoin</h3>
+                            <p
+                                style="font-size: 1em; position:relative ; bottom: 20px; left: 145px; width: 60vh; height: 30px;color: #fff; ">
+                                Nous vous garantissons les prix homologués par l’état pour
+                                l’ensemble des livres scolaires officiels
+                            </p>
+                            <form method="post" style="font-family: Century Gothic !important ;">
+                                <b style="position:absolute ;font-weight: bold; left: 1px; text-align: left; ">Sélectionner
+                                    une classe</b>
+                                <b style="position:absolute ;font-weight: bold; left: 200px; text-align: justify; ">Sélectionner
+                                    les livres</b>
+                                <b style="position:absolute ;font-weight: bold;left: 425px; text-align: center; ">Cliquer
+                                    sur + pour ajouter votre sélection</b>
+                                <br>
+                                <select class="combo"
+                                    style="position: absolute ; color: black;text-align: center; left: 1px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
+                                    <option></option>
+                                    <option>Terminale ES </option>
+                                    <option>Premiere</option>
+                                    <option>seconde</option>
+                                    <option>3eme</option>
+                                    <option>4eme</option>
+                                </select>
+                                <select class="combo"
+                                    style="position: absolute ;text-align: center; color: black; left: 200px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
+                                    <option></option>
+                                    <option>Tourbillons de Passion</option>
+                                    <option>Major en math</option>
+                                    <option>Major en Francais</option>
+                                    <option>kaizen</option>
+                                    <option>Otaku</option>
+                                </select>
+                                <br>
+                                <img style="height: 50px;width: 50px; position:absolute ; left: 600px; bottom: 350px; "
+                                    src="images\plus.png" alt="plus">
+
+                                <p style="color: #fff; font-size: 1em;">Votre sélection</p>
 
 
+                                <table>
+                                    <tr style="font-weight: bold;">
+                                        <th style="width: 10vh;">Classe</th>
+                                        <th style="width: 35vh;">Titre (Matière | Titre (éditeur))</th>
+                                        <th style="width: 15vh;">Quantité</th>
+                                        <th style="width: 20vh;">Prix total</th>
+                                    </tr>
+                                    <tr>
+                                        <td>XXXXX</td>
+                                        <td>XXXXX</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>XXXXX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>XXXXX</td>
+                                        <td>XXXXX</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>XXXXX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>XXXXX</td>
+                                        <td>XXXXX</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>XXXXX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>XXXXX</td>
+                                        <td>XXXXX</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>XXXXX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>XXXXX</td>
+                                        <td>XXXXX</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>XXXXX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>.</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>.</td>
+                                        <td> <input value="1" type="number" min="0" max="50" step="1" /> </td>
+                                        <td>.</td>
+                                    </tr>
+                                </table>
+                                <div>
 
+                                </div>
+                                <img style="height: 50px;width: 50px; position:absolute ; left: 660px; bottom: 270px; "
+                                    src="images\corbeille.jpg" alt="plus">
+                                <p style="color: #fff; font-size: 1em;">Montant total de votre sélection</p>
+                                <input
+                                    style="position: absolute ;bottom: 40px; left: 520px; text-align:center ; height: 30px; width: 15vh !important; border-radius: 5px;"
+                                    type="text">
+                                <img style="height: 40px;width: 40px; position:absolute ; left: 660px; bottom: 35px; "
+                                    src="images\corbeille.jpg" alt="plus">
+                            </form>
+                            <br>
+                            <div style="position:absolute; left: 10%;">
+                                <p style="color: #fff; font-size: 1.2em; text-align: justify;">
+                                    Vous souhaitez rajouter des livres qui ne sont pas<br>
+                                    disponibles dans nos listes?<br><br>
+                                    Rien de plus simple, envoyez-nous une photo de votre<br>
+                                    liste spécifique par WhatsApp au numéro +237 696-100-982<br>
+                                    ou uploadez la directement en cliquant ci-dessous<br>
+                                </p>
+                                <img style="height: 40px;width: 40px; position:absolute ; left: 555px; bottom: 108px; "
+                                    src="images\whatsap.png" alt="plus">
+                                <button>Envoyez la photo de votre liste spécifique</button><br>
+                                <img style="height: 42px;width: 45px; position:absolute ; left: 20px; bottom: 2px; "
+                                    src="images\plus.png" alt="plus">
+                                <div>
+                                    <p style="color: #fff; font-size: 1em; text-align: justify;">
+                                        Fichier ajouté.jpeg
+                                    </p>
+                                    <img style="height: 25px;width: 25px; position:absolute ; left: 140px; bottom: 15px; "
+                                        src="images\corbeille.jpg" alt="plus">
+                                    <div>
+                                        <h3
+                                            style="border-radius: 5px; position:relative ; left: 40%; width: 50vh;  background-color: #fff;color: black;  ">
+                                            Destinataire & Livraison</h3> <br>
+                                        <b
+                                            style="position: absolute ;color: #fff;width: 20vh; font-size: 0.80em; text-align: justify; left: -19px;">Etes-vous
+                                            le destinataire de votre sélection ou devons-nous la livrer à quelqu’un
+                                            d’autre</b>
+                                        <b style="position: absolute ; left: 90px;color: #fff;width: 90vh; ">
+                                            <input type="radio" id="htd" name="fav_language" value="htd" checked>
+                                            <label style="font-size: smaller; " for="htd">Je suis destinataire
+                                                Livrez-moi</label>
+                                            <input type="radio" id="tmm" name="fav_language" value="tmm">
+                                            <label style="font-size: smaller; " for="tmm">Livrez une autre personne de
+                                                mon choix</label>
+                                        </b> <br>
+                                        <form method="post"
+                                            style="font-family: Century Gothic !important ;color: #ffff; position: absolute; bottom: -70px;">
+                                            <b style="position:absolute ; left: -20px; text-align: left; ">Civilité
+                                                destinataire*</b>
+                                            <b style="position:absolute ; left: 170px; text-align: justify; ">Prénom du
+                                                destinataire*</b>
+                                            <b style="position:absolute ; left: 400px; text-align: left; ">Nom du
+                                                destinataire*
+                                            </b> <br>
+
+                                            <div style="position:absolute ; bottom: -50px; left: -40px;">
+                                                <select class="combo2"
+                                                    style="position: absolute ; color: black; left: 8px; text-align:center ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                                    <option>Monsieur </option>
+                                                    <option>Madame</option>
+                                                </select>
+                                                <input
+                                                    style="position: absolute ; left: 210px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                                    type="text">
+                                                <input
+                                                    style="position: absolute ; left: 435px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                                    type="text">
+                                                <br>
+                                                <div style="width: 130vh !important; ">
+                                                    <b
+                                                        style="position:absolute ; left: 25px; text-align: left;bottom: -1px; ">
+                                                        N° de téléphone* du destinataire
+                                                    </b>
+                                                    <br>
+                                                    <select class="combo"
+                                                        style="position: absolute ;bottom: -30px; color: black; left: 8px; text-align:left ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                                        <option>+237</option>
+                                                        <option>+33</option>
+                                                        <option>+44</option>
+                                                        <option>+49</option>
+                                                        <option>+33</option>
+                                                        <option>+1</option>
+                                                    </select>
+                                                    <input id="tel"
+                                                        style="position: absolute ;bottom: -30px; left: 98px; text-align:left ; height: 20px; width: 20vh !important; border-radius: 5px;"
+                                                        type="text">
+                                                    <br>
+                                                    <b
+                                                        style="position:absolute ;bottom: -70px; left: 25px; text-align: left; ">
+                                                        Ville* de livraison
+                                                    </b>
+                                                    <select class="combo"
+                                                        style="position: absolute ;bottom: -70px; color: black; left: 190px; text-align:left ; height: 25px; width: 10vh !important; border-radius: 5px;">
+                                                        <option>Yoaunde</option>
+                                                        <option>Douala</option>
+                                                        <option>Limbe</option>
+                                                        <option>Bafoussam</option>
+                                                        <option>Buea</option>
+                                                        <option>Bamenda</option>
+                                                    </select>
+                                                    <b
+                                                        style="position:absolute ;bottom: -70px; left: 300px; text-align: left; ">
+                                                        Des frais d’expédition sont appliqués à votre ville
+                                                    </b>
+                                                    <br>
+                                                    <b
+                                                        style="position:absolute ;bottom: -110px; left: 25px; text-align: left; ">
+                                                        Quartier* de livraison
+                                                    </b>
+                                                    <select class="combo"
+                                                        style="position: absolute ;bottom: -110px; color: black; left: 190px;  height: 25px; width: 10vh !important; border-radius: 5px;">
+                                                        <option>Akwa</option>
+                                                        <option>Odja</option>
+                                                        <option>Dakar</option>
+                                                        <option>Ndokoti</option>
+                                                        <option>Mille-1</option>
+                                                        <option>kotto</option>
+                                                    </select><br>
+                                                    <b
+                                                        style="position:absolute ;bottom: -150px; left: 25px; text-align: left; ">
+                                                        Total Sélection
+                                                    </b>
+                                                    <b
+                                                        style="position:absolute ;bottom: -150px; left: 225px; text-align: left; ">
+                                                        Total Frais de livraison
+                                                    </b>
+                                                    <b
+                                                        style="position:absolute ;bottom: -150px; left: 450px; text-align: left; ">
+                                                        Total Commande
+                                                    </b><br>
+                                                    <input
+                                                    style="position: absolute;bottom: -180px; left: 25px;  height: 20px; width: 10vh !important; border-radius: 5px;"
+                                                    type="text" value="XXXX">
+                                                    <input
+                                                    style="position: absolute;bottom: -180px; left: 225px;  height: 20px; width: 10vh !important; border-radius: 5px;"
+                                                    type="text" value="XXXX">
+                                                    <input
+                                                    style="position: absolute;bottom: -180px; left: 450px;  height: 20px; width: 10vh !important; border-radius: 5px;"
+                                                    type="text" value="XXXX">
+                                                </div>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
-                        <!-- 2 -->
-                        <div id="Paris" class="tabcontent">
-                            <div>
-
-                            </div>
-                            <h3>Paris</h3>
-                            <p>Paris is the capital of France.</p>
-                        </div>
-                        <!-- 3 -->
-                        <div id="Tokyo" class="tabcontent">
-                            <h3>Tokyo</h3>
-                            <p>Tokyo is the capital of Japan.</p>
-                        </div>
-
-                        <script>
-                            function openCity(evt, cityName) {
-                                var i, tabcontent, tablinks;
-                                tabcontent = document.getElementsByClassName("tabcontent");
-                                for (i = 0; i < tabcontent.length; i++) {
-                                    tabcontent[i].style.display = "none";
-                                }
-                                tablinks = document.getElementsByClassName("tablinks");
-                                for (i = 0; i < tablinks.length; i++) {
-                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                                }
-                                document.getElementById(cityName).style.display = "block";
-                                evt.currentTarget.className += " active";
-                            }
-                        </script>
                     </section>
                 </aside>
 
 
             </div>
         </div>
-        
+
     </div>
 
 </body>
