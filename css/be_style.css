@@ -5382,3 +5382,9 @@ p.flv_align_right,div.flv_align_right {
 .flv_float_right,div.flv_float_right {
     float: right;
 }
+
+@media only screen and (min-width: 1240px) and (max-width: 1480px) {
+    #Wrapper, .content_wrapper, .sections_group, .section{
+        max-width: 100vw;
+    }
+}
