@@ -51,34 +51,37 @@ font-family: Century Gothic !important;
 .jump nav .swiper
 {
     height: 50vh;
-    width: 75vh;
+    width: 80vh;
     bottom: -40px;
     left: 60px;
 }
 .jump nav p
 {
     background-color: #e5546c;
-    border-radius: 0 180px 180px 0;
+    border-radius: 8px;
+    margin: center;
     font-family: Century Gothic !important;
     color: #fff;
     position: absolute;
-    height: 13vh;
-    width: 65%;
-    bottom: -395px;
-    left: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 13.5vh;
+    width: 35.5vh;
+    bottom: -382px;
+    left: 170px;
 }
 .jump nav b
 {
     background-color: #e5546c;
-    border-radius: 10px;
+    border-radius: 8px;
     font-family: Century Gothic !important;
     text-align: center;
     color: #fff;
     position: absolute;
-    height: 4vh;
-    width: 55%;
+    height: 3vh;
+    width: 32vh;
     bottom: -420px;
-    left: 160px;
+    left: 180px;
 }
 /*section de droite*/
 .jump section
@@ -88,7 +91,7 @@ font-family: Century Gothic !important;
     padding-right: 160px;
     text-align: justify;
     height: 245vh;
-    width: 105vh;
+    width: 101vh;
     position: relative;
     top: -100px; 
 }
@@ -100,13 +103,16 @@ font-family: Century Gothic !important;
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .jump .main 
 {
     position: fixed;
-    width: 45%;
+    width: 50%;
     height: 100%;
+    left: 12px;
 
 }
 .jump .aside
@@ -173,10 +179,11 @@ button
 {
     background-color: #fff;
     color: black;
+    border: 0.5px solid black;
     border-radius: 5px;
     width: 20vh;
     font-size: 0.80em; 
-    text-align: center;  
+    text-align: left;  
     position:absolute ;
     bottom: -20px;   
 } 
@@ -187,4 +194,21 @@ button
     position:absolute ; 
     bottom: -35px; 
     border-radius: 5px;     
+}
+@media screen and (max-width: 750px) {
+  .jump .box 
+   {
+    flex-basis: 100%;
+    
+   }
+   .jump .main 
+   {
+    order: 2;
+    width: 80%;
+   }
+   .jump .aside
+   {
+    order: 1;
+    width: 80%;
+   } 
 }

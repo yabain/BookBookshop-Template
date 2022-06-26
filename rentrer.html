@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="css\rentrer.css">
     <link rel='stylesheet' href='css\bbs.css'>
+    <link rel="stylesheet" href="css\structure.css">
     <title>Rentrer</title>
 
 </head>
@@ -34,7 +35,7 @@
                 <nav>
                     <span>
                         <h1 style="font-size: 1.2em;">Profitez d’une rentrée 100% ZEN : </h1>
-                        <ul style="font-weight: bold; ">
+                        <ul class="slist" style="font-weight: bold;  list-style: square; ">
                             <li>Zéro Stress</li>
                             <li>Zéro Bousculade</li>
                             <li>Zéro Embouteillage</li>
@@ -46,7 +47,7 @@
                             href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.css">
                         <style>
                             img {
-                                width: 420px;
+                                width: 520px;
                                 height: 420px;
                             }
                         </style>
@@ -83,9 +84,9 @@
                                 loop: true,
 
                                 // If we need pagination
-                                pagination: {
-                                    el: '.swiper-pagination',
-                                },
+                                // pagination: {
+                                //     el: '.swiper-pagination',
+                                // },
 
                                 // Navigation arrows
                                 navigation: {
@@ -98,13 +99,13 @@
                     </div>
                     <br>
                     <p style="font-size: 0.95em;">
-                        Comme des centaines de familles, <br>
-                        passez votre commande, faites une <br>
-                        réservation ou offrez des livres à vos <br>
-                        proches plus attendre. <br>
+                        Comme des centaines de familles, 
+                        passez votre commande, faites une 
+                        réservation ou offrez des livres à vos 
+                        proches plus attendre. 
                     </p>
 
-                    <b style="font-size: 1em;">
+                    <b style="font-size: 1em ; ">
                         Nous nous occupons de tout!
                     </b>
                 </nav>
@@ -124,7 +125,7 @@
                             <p style="color: #fff; font-size: 1.2em;">Aucune de vos données personnelles ne sera
                                 communiquée à des tiers
                             </p>
-                            <form method="post" style="font-family: Century Gothic !important ;">
+                            <form method="post" style="font-family: Century Gothic !important ;color: white;">
 
                                 <b style="position:absolute ; left: 15px; text-align: left; ">Civilité*</b>
                                 <b style="position:absolute ; left: 150px; text-align: justify; ">Prénom*</b>
@@ -185,7 +186,7 @@
                                 Nous vous garantissons les prix homologués par l’état pour
                                 l’ensemble des livres scolaires officiels
                             </p>
-                            <form method="post" style="font-family: Century Gothic !important ;">
+                            <form method="post" style="font-family: Century Gothic !important ;color: white;">
                                 <b style="position:absolute ;font-weight: bold; left: 1px; text-align: left; ">Sélectionner
                                     une classe</b>
                                 <b style="position:absolute ;font-weight: bold; left: 200px; text-align: justify; ">Sélectionner
@@ -193,6 +194,12 @@
                                 <b style="position:absolute ;font-weight: bold;left: 425px; text-align: center; ">Cliquer
                                     sur + pour ajouter votre sélection</b>
                                 <br>
+                                <script>
+                                    let myClasse ={
+                                        ti
+                                    }
+
+                                </script>
                                 <select class="combo"
                                     style="position: absolute ; color: black;text-align: center; left: 1px; text-align:left ; height: 25px; width: 20vh !important; border-radius: 5px;">
                                     <option></option>
@@ -271,13 +278,13 @@
                                 <div>
 
                                 </div>
-                                <img style="height: 50px;width: 50px; position:absolute ; left: 660px; bottom: 270px; "
+                                <img style="height: 50px;width: 50px; position:absolute ;border-radius: 5px; left: 660px; bottom: 270px; "
                                     src="images\corbeilles.jpg" alt="plus">
                                 <p style="color: #fff; font-size: 1em;">Montant total de votre sélection</p>
                                 <input
                                     style="position: absolute ;bottom: 40px; left: 520px; text-align:center ; height: 30px; width: 15vh !important; border-radius: 5px;"
                                     type="text">
-                                <img style="height: 40px;width: 40px; position:absolute ; left: 660px; bottom: 35px; "
+                                <img style="height: 40px;width: 40px; position:absolute ;border-radius: 5px; left: 660px; bottom: 35px; "
                                     src="images\corbeilles.jpg" alt="plus">
                             </form>
                             <br>
@@ -289,7 +296,7 @@
                                     liste spécifique par WhatsApp au numéro +237 696-100-982<br>
                                     ou uploadez la directement en cliquant ci-dessous<br>
                                 </p>
-                                <img style="height: 40px;width: 40px; position:absolute ; left: 555px; bottom: 108px; "
+                                <img style="height: 40px;width: 40px; position:absolute ; left: 535px; bottom: 108px; "
                                     src="images\whatsap.png" alt="plus">
                                 <button>Envoyez la photo de votre liste spécifique</button><br>
                                 <img style="height: 42px;width: 45px; position:absolute ; left: 20px; bottom: 2px; "
@@ -298,17 +305,17 @@
                                     <p style="color: #fff; font-size: 1em; text-align: justify;">
                                         Fichier ajouté.jpeg
                                     </p>
-                                    <img style="height: 25px;width: 25px; position:absolute ; left: 140px; bottom: 15px; "
+                                    <img style="height: 25px;width: 25px; position:absolute ;border-radius: 5px; left: 140px; bottom: 15px; "
                                         src="images\corbeilles.jpg" alt="plus">
                                     <div>
                                         <h3
-                                            style="border-radius: 5px; position:relative ; left: 40%; width: 50vh;  background-color: #fff;color: black;  ">
+                                            style="border-radius: 5px;bottom: 12px; position:relative ; left: 40%; width: 50vh;  background-color: #fff;color: black;  ">
                                             Destinataire & Livraison</h3> <br>
                                         <b
-                                            style="position: absolute ;color: #fff;width: 20vh; font-size: 0.80em; text-align: justify; left: -19px;">Etes-vous
+                                            style="position: absolute ;bottom: -5px; color: #fff;width: 20vh; font-size: 0.80em; text-align: left; left: -19px;">Etes-vous
                                             le destinataire de votre sélection ou devons-nous la livrer à quelqu’un
                                             d’autre</b>
-                                        <b style="position: absolute ; left: 90px;color: #fff;width: 90vh; ">
+                                        <b style="position: absolute ;bottom: 12px; left: 90px;color: #fff;width: 90vh; ">
                                             <input type="radio" id="htd" name="fav_language" value="htd" checked>
                                             <label style="font-size: smaller; " for="htd">Je suis destinataire
                                                 Livrez-moi</label>
