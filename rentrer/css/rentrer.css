@@ -1,0 +1,214 @@
+.jump
+{
+background-color: #fff;
+font-family: Century Gothic !important;
+}
+
+.jump nav
+{
+    font-family: Century Gothic !important;
+    margin-right: auto;
+    padding-right: 160px;
+    text-align: justify;
+    height: 20vh;
+    width: 50%;
+    position: relative;
+    
+}
+.jump nav span 
+{
+    font-size: 1.2em;
+    position: absolute;
+    left: 125px; 
+    bottom: 80px;
+}
+.jump select
+{
+    font-family: Century Gothic !important;
+    font-size: 1em;
+    height: 30px; 
+    width: 20vh !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jump header
+{
+    margin-right: auto;
+    padding-right: 160px;
+    height: 20vh;
+    width: 20%;
+    position: relative;
+}
+.jump header img
+{
+    height: 80px;  
+    width: 450px;
+    position: fixed;
+    left: 80px;  
+    top: 15px;
+}
+.jump nav .swiper
+{
+    height: 50vh;
+    width: 80vh;
+    bottom: -40px;
+    left: 60px;
+}
+.jump nav p
+{
+    background-color: #e5546c;
+    border-radius: 8px;
+    margin: center;
+    font-family: Century Gothic !important;
+    color: #fff;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 13.5vh;
+    width: 35.5vh;
+    bottom: -382px;
+    left: 170px;
+}
+.jump nav b
+{
+    background-color: #e5546c;
+    border-radius: 8px;
+    font-family: Century Gothic !important;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    height: 3vh;
+    width: 32vh;
+    bottom: -420px;
+    left: 180px;
+}
+/*section de droite*/
+.jump section
+{
+    font-family: Century Gothic !important;
+    margin-right: auto;
+    padding-right: 160px;
+    text-align: justify;
+    height: 245vh;
+    width: 101vh;
+    position: relative;
+    top: -100px; 
+}
+
+.jump .box
+{
+    /* background-color: darkmagenta; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.jump .main 
+{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    left: 12px;
+
+}
+.jump .aside
+{
+    text-align: center;
+    margin-left: 38%;
+    width: 45%;
+    height: 85vh;
+}
+/* for the tab jump*/
+.jump .vous
+{
+    font-family: Century Gothic !important;
+    text-align: center;
+    padding: 6px 12px;
+    position: absolute;
+    width: 100vh;
+}
+
+.jump .vous table th
+{
+    border: 2px solid black;
+    background-color: #fff;    
+    height: 30px;
+}
+.jump .vous table,th,td
+{
+    
+    border:1px solid black;
+}
+.jump table
+{
+    background-color: #fff;
+    color: #e5546c;
+}
+
+.jump .terminal
+{
+    font-family: Century Gothic !important;
+    text-align: center;
+    height: 82vh;     
+    top: -10px;
+}
+button
+{
+	display: inline-block;
+	background: #fff;
+	border-radius: 5px;
+	height: 48px;
+    width: 68vh;
+    color: #e5546c;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+    font-size: 1.2em;
+}
+.jump input
+{
+    text-align: center;
+}
+.jump .pay b
+{
+    background-color: #fff;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    width: 20vh;
+    font-size: 0.80em; 
+    text-align: left;  
+    position:absolute ;
+    bottom: -20px;   
+} 
+.jump .pay img
+{
+    height: 50px;
+    width: 10vh;
+    position:absolute ; 
+    bottom: -35px; 
+    border-radius: 5px;     
+}
+@media screen and (max-width: 750px) {
+  .jump .box 
+   {
+    flex-basis: 100%;
+    
+   }
+   .jump .main 
+   {
+    order: 2;
+    width: 80%;
+   }
+   .jump .aside
+   {
+    order: 1;
+    width: 80%;
+   } 
+}

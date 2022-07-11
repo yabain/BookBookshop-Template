@@ -1,0 +1,42 @@
+.accordion #landing-bbs .step-content
+{
+    padding: 10px 0px 0px 0px; 
+     
+}
+.step-tab-panel
+{
+    background-color: white;
+    padding: 10px;
+}
+
+.step-app > .step-footer
+{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.step-btn
+{
+}
+
+.step-content input[type="text"],
+.step-content input[type="tel"],
+.step-content input[type="email"]
+{
+    width: 100%;
+}
+
+
+.input-group-prepend button
+{
+    margin-bottom: 0px;
+}
+
+table th
+{
+    color:white !important;
+    font-weight: bold; 
+    background-color: #e5546c; 
+}
