@@ -41,11 +41,19 @@
     <link rel='stylesheet' id='style-static' href='css/be_style.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
-  
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"></script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.steps@1.1.1/dist/jquery-steps.min.css">
     <link rel="stylesheet" href="css/jquery.multiselect.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link rel="stylesheet" href="css/bvselect.css">
+    <link rel="stylesheet" href="css/chosen.min.css">
+
     <link rel='stylesheet' href='css/custom.css'>
+    
 
 
 
@@ -318,11 +326,35 @@
                                                                         <label for="telWhatsapsDestinataire">Votre N° de téléphone WhatsApp <span class="text-danger">*</span></label>
                                                                         <input type="tel" class="form-control" id="telWhatsapsDestinataire" >
                                                                       </div>
-                                                                    </div>         
+                                                                    </div> 
+                                                                    <p class="mb-1 mt-1">Localisation lieu de livraison</p>
+
+                                                                    <div class="form-row">
+                                                                        <div class="form-group col-md-12 col-sm-6" >
+                                                                            <label for="inputLocalisationCommune">Selectionnez la commune<span class="text-danger">*</span></label>
+                                                                            <select id="inputLocalisationCommune"  data-placeholder="Selectionnez votre commune" class="form-control form-control">
+                                                                            </select>                                                                            
+                                                                        </div>   
+                                                                        
+                                                                        <div class="form-group col-md-12 col-sm-6" >
+                                                                            <label for="inputLocalisationVille">Sélectionnez la ville<span class="text-danger">*</span></label>
+                                                                            <select id="inputLocalisationVille"  data-placeholder="Selectionnez votre ville" class="form-control form-control ">
+                                                                            </select>                                                                            
+                                                                        </div>   
+                                                                    </div>
                                                                     <div class="form-row">
                                                                         <div class="form-group col-md-12">
-                                                                            <label for="inputNom">Localisation lieu de livraison<span class="text-danger">*</span></label>
-                                                                            <input type="text" class="form-control" id="inputLocalisation" required>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input" type="checkbox" id="isUserZoneLivraisonDestination">
+                                                                                <label class="form-check-label" for="isUserZoneLivraisonDestination">Vous ne trouvez pas votre zone dans la liste ?</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="form-row" id="userZoneLivraisonDestination">
+                                                                        <div class="form-group col-md-12" >
+                                                                            <label for="inputNom">Entrez votre zone: <span class="text-danger"> (Des charges supplémentaires de livraison peuvent s'ajouter)</span></label>
+                                                                            <input type="text" class="form-control" id="inputLocalisationOther" >
                                                                         </div>
                                                                     </div>
                                                                     
@@ -380,6 +412,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- JS -->
 
@@ -410,8 +443,14 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery.steps@1.1.1/dist/jquery-steps.min.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+    
     <script src="js/jquery.multiselect.js"></script>
     <script src="js/products.js"> </script>
+    <script src="js/chosen.jquery.min.js"> </script>
+    <script src="js/bvselect.js"> </script>
+    <script src="js/bvselect.polyfill.js"> </script>
+    <script src="js/ville-data.js"> </script>
     <script src="js/custom.js"> </script>
 
 </body>

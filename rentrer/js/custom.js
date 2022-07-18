@@ -195,9 +195,20 @@ jQuery(window)
             $("#telWhatsapsDestinataire").attr("required","false");
         }
     })
-    // $("#customListFile").on("change",function(){
-    //     $("#customListFile").prop("files")
-    // })
+    
+    
+    $("#userZoneLivraisonDestination").hide( );
+    $("#isUserZoneLivraisonDestination").click(function (e){
+        if( ($(this).is(':checked')) ) 
+        {
+            $("#userZoneLivraisonDestination").show( "fast");
+        }
+        else
+        {
+            $("#userZoneLivraisonDestination").hide( 700 );
+        }
+    })
+
 
     $("#livreInputSelect").multiselect({
         search: true,
@@ -233,6 +244,44 @@ jQuery(window)
     $("#classInputSelect").on("change",function (){
         $("#livreInputSelect").multiselect("loadOptions",selectCategory(parseInt($(this).val())));
     })
+
+    //Initialisation des villes
+    let locationCommune=$("#inputLocalisationCommune");
+    let locationVille=$("#inputLocalisationVille");
+    let localisationVilleChosen = locationVille.chosen({
+        width: "100%"
+    });
+    Array.from(dataVille.keys()).forEach((ville)=>locationCommune.append(`<option>${ville}</option>`))
+    locationCommune.chosen({
+        width: "100%"
+    });
+    localisationVilleChosen.val(dataVille.get(locationCommune.val()));
+
+
+    if(locationCommune.val())
+    {
+        if(dataVille.has(locationCommune.val()))
+        {
+            locationVille.empty();
+
+            dataVille.get(locationCommune.val()).forEach((ville)=>locationVille.append(`<option>${ville}</option>`))
+            localisationVilleChosen.trigger("chosen:updated");
+        }
+    }
+
+
+    locationCommune.on("change",function(e){
+        if(dataVille.has(locationCommune.val()))
+        {
+            locationVille.empty();
+
+            dataVille.get(locationCommune.val()).forEach((ville)=>locationVille.append(`<option>${ville}</option>`))
+            localisationVilleChosen.trigger("chosen:updated");
+        }
+    })
+    
+    // $("#inputLocalisation_chosen").css("width","100%");
+
 
     dataTable=$('#tableLivres').DataTable( {
         data:getProducts(),
@@ -271,4 +320,7 @@ jQuery(window)
             
         ]
     } );
+
+
+    
 });
