@@ -6,7 +6,7 @@ let formData=new FormData()
 let livresData=[
     {
         idCategory:1,
-        labelCategory:"1er",
+        labelCategory:"Maternelle 1ère année",
         idProduit:1,
         nomProduit:"Math",
         prix:1000,
