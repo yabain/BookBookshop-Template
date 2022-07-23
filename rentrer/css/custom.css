@@ -5,7 +5,7 @@
 }
 .step-tab-panel
 {
-    background-color: white;
+    background-color: #ede6e6;
     padding: 10px;
 }
 
@@ -17,8 +17,14 @@
     
 }
 
-.step-btn
-{
+.step-btn {
+    height: 48px !important;
+    border-color: #f0ceeb9f !important;
+    background-color: #ffff !important;
+    color: #cd3750 !important;
+    text-align: center !important;
+    border-radius: 7px !important;
+    font-size: 1.5em !important;
 }
 
 .step-content input[type="text"],
@@ -40,3 +46,55 @@ table th
     font-weight: bold; 
     background-color: #e5546c; 
 }
+.form-check-label{
+    color: black;
+}
+.shadow {
+    -moz-box-shadow:    3px 3px 5px 6px rgb(63, 61, 61);
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(32, 31, 31);
+    box-shadow:         3px 3px 5px 6px rgb(38, 37, 37);
+}
+.clignote {
+    animation: clignote 2s linear infinite;
+  }
+  @keyframes clignote {  
+    50% { opacity: 0; }
+  }
+
+  .marquee-rtl {
+    width: 30em;                     /* largeur de la fenêtre */
+    height:7em;
+    margin: 1em auto 1em;
+    overflow: hidden;                     /* masque tout ce qui dépasse */
+    /* box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC; */
+  }
+  .marquee-rtl > :first-child {
+    display: inline-block;                /* modèle de boîte en ligne */
+    font-size:8em;
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 0%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 15s infinite linear;
+  }
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }
+
+
+  .bgRentree {
+    background-image: url("../images/bbs_bg_coming_soon.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+  }
