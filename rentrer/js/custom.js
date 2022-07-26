@@ -42,7 +42,7 @@ let livresData=[
     {
         idCategory:2,
         labelCategory:"Maternelle 2ème année",
-        idProduit:1,
+        idProduit:4,
         nomProduit:"Langage : Les Majors en activité de langage Maternelle 2ème année (ASVA)",
         prix:1000,
         quantity:0,
@@ -53,7 +53,7 @@ let livresData=[
     {
         idCategory:2,
         labelCategory:"Maternelle 2ème année",
-        idProduit:2,
+        idProduit:5,
         nomProduit:"Mathématiques : Mon cahier d’activités de mathématiques 2ème année (NATHAN)",
         prix:1000,
         quantity:0,
@@ -64,7 +64,7 @@ let livresData=[
     {
         idCategory:2,
         labelCategory:"Maternelle 2ème année",
-        idProduit:3,
+        idProduit:6,
         nomProduit:"Dessin, Peinture, Coloriage : Je pratique le dessin et le coloriage (AFRICA EDUCATION)",
         prix:1000,
         quantity:0,
@@ -75,7 +75,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:1,
+        idProduit:7,
         nomProduit:"Ecriture : Mon cahier de graphisme et d’écriture (Michel Lafon/K.N.)",
         prix:1000,
         quantity:0,
@@ -87,7 +87,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:2,
+        idProduit:8,
         nomProduit:"Français : Champions en Français (Hachette/Cle)",
         prix:1500,
         quantity:0,
@@ -98,7 +98,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:3,
+        idProduit:9,
         nomProduit:"Anglais : Inclusive English (Global Industries)",
         prix:1800,
         quantity:0,
@@ -109,7 +109,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:4,
+        idProduit:10,
         nomProduit:"Mathématiques : A vos maths ! (Nathan)",
         prix:1500,
         quantity:0,
@@ -120,7 +120,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:5,
+        idProduit:11,
         nomProduit:"TIC (SIL/CP) : Les Brillants NMI Education)",
         prix:1500,
         quantity:0,
@@ -131,7 +131,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:6,
+        idProduit:12,
         nomProduit:"Science et Technologie : Majors en Science et technologie (Asva Education)",
         prix:1500,
         quantity:0,
@@ -142,7 +142,7 @@ let livresData=[
     {
         idCategory:3,
         labelCategory:"SIL",
-        idProduit:7,
+        idProduit:13,
         nomProduit:"Education à la citoyenneté (SIL/CP) (Nathan)",
         prix:1500,
         quantity:0,
@@ -153,7 +153,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:1,
+        idProduit:14,
         nomProduit:"Ecriture : Mon cahier de graphisme et d’écriture (Michel Lafon)",
         prix:1000,
         checked:true,
@@ -165,7 +165,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:2,
+        idProduit:15,
         nomProduit:"Français : Champions en Français (Hachette/Cle)",
         prix:1500,
         checked:true,
@@ -176,7 +176,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:3,
+        idProduit:16,
         nomProduit:"Anglais : Winners in English (NMI Education)",
         prix:1800,
         checked:true,
@@ -187,7 +187,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:4,
+        idProduit:17,
         nomProduit:"Mathématiques : A vos maths ! (Nathan)",
         prix:1500,
         checked:true,
@@ -198,7 +198,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:5,
+        idProduit:18,
         nomProduit:"Science et Technologie : Majors en Science (Asva)",
         prix:1500,
         checked:true,
@@ -209,7 +209,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:6,
+        idProduit:19,
         nomProduit:"Education à la citoyenneté (SIL/CP) (Nathan)",
         prix:1500,
         checked:true,
@@ -220,7 +220,7 @@ let livresData=[
     {
         idCategory:4,
         labelCategory:"cp",
-        idProduit:7,
+        idProduit:20,
         nomProduit:"TIC : Les Brillants (SIL-CP) (NMI Education)",
         prix:1500,
         checked:true,
@@ -231,7 +231,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:1,
+        idProduit:21,
         nomProduit:"Français : Français CE1 (Nathan)",
         prix:1800,
         checked:true,
@@ -243,7 +243,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:2,
+        idProduit:22,
         nomProduit:"Littérature : Littérature CE1 : Comment ça va Benjamin ? (Africa Education)",
         prix:1000,
         checked:true,
@@ -254,7 +254,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:3,
+        idProduit:23,
         nomProduit:"Anglais : Anglais CE1 (Cosmos)",
         prix:2000,
         checked:true,
@@ -265,7 +265,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:4,
+        idProduit:24,
         nomProduit:"Mathématiques : Mathématiques CE1 (Africa Eucation)",
         prix:1800,
         checked:true,
@@ -276,7 +276,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:5,
+        idProduit:25,
         nomProduit:"Science et Technologie : Science et Technologie CE1 (Asva)",
         prix:1600,
         checked:true,
@@ -287,7 +287,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:6,
+        idProduit:26,
         nomProduit:"Sciences Humaines et Sociales : Histoire, Géographie et Education à la citoyenneté CE1 (Edicef)",
         prix:1800,
         checked:true,
@@ -298,7 +298,7 @@ let livresData=[
     {
         idCategory:5,
         labelCategory:"CE1",
-        idProduit:7,
+        idProduit:27,
         nomProduit:"TIC : manuel unique (CE1-CE2) (Cosmos)",
         prix:1600,
         checked:true,
@@ -309,7 +309,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:1,
+        idProduit:28,
         nomProduit:"Français : Les Champions en Français CE2 (Edicef/Cle)",
         prix:1800,
         checked:true,
@@ -321,7 +321,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:2,
+        idProduit:29,
         nomProduit:"Littérature : Littérature CE2 : Mon projet de vie (NMI Education)",
         prix:1000,
         checked:true,
@@ -332,7 +332,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:3,
+        idProduit:30,
         nomProduit:"Anglais : Anglais CE2 (NMI Education)",
         prix:1800,
         checked:true,
@@ -343,7 +343,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:4,
+        idProduit:31,
         nomProduit:"Mathématiques : Mathématiques CE2 (Nathan)",
         prix:1800,
         checked:true,
@@ -354,7 +354,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:5,
+        idProduit:32,
         nomProduit:"Science et Technologie : Science et Technologie CE2 (Cosmos)",
         prix:1600,
         checked:true,
@@ -365,7 +365,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:6,
+        idProduit:33,
         nomProduit:"Sciences Humaines et Sociales : Histoire,Géographie et Education à la citoyenneté CE2 (Edicef)",
         prix:1800,
         checked:true,
@@ -376,7 +376,7 @@ let livresData=[
     {
         idCategory:6,
         labelCategory:"CE2",
-        idProduit:7,
+        idProduit:34,
         nomProduit:"TIC : TIC CE1 et CE2 (Cosmos)",
         prix:1600,
         checked:true,
@@ -387,7 +387,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:1,
+        idProduit:35,
         nomProduit:"Français : Français CM1",
         checked:true,
         prix:1900,
@@ -399,7 +399,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:2,
+        idProduit:36,
         nomProduit:"Littérature : la naissance d’une grande nation(Littérature CM1)",
         checked:true,
         prix:1000,
@@ -410,7 +410,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:3,
+        idProduit:37,
         nomProduit:"Anglais : English CM1",
         checked:true,
         prix:1900,
@@ -421,7 +421,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:4,
+        idProduit:38,
         nomProduit:"Mathématiques : Mathématiques CM1",
         checked:true,
         prix:1900,
@@ -432,7 +432,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:5,
+        idProduit:39,
         nomProduit:"Science et Technologie : Sciences t Technologies CM1",
         checked:true,
         prix:1800,
@@ -443,7 +443,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:6,
+        idProduit:40,
         nomProduit:"TIC : TIC CM1",
         checked:true,
         prix:1800,
@@ -454,7 +454,7 @@ let livresData=[
     {
         idCategory:7,
         labelCategory:"CM1",
-        idProduit:7,
+        idProduit:41,
         nomProduit:"Sciences Humaines et Sociales : Sciences humaines et sociales",
         checked:true,
         prix:1850,
@@ -465,7 +465,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:1,
+        idProduit:42,
         nomProduit:"Français : Français CM2",
         checked:true,
         prix:1900,
@@ -477,7 +477,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:2,
+        idProduit:43,
         nomProduit:"Littérature : une nation bénie (Littérature CM2)",
         checked:true,
         prix:1000,
@@ -488,7 +488,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:3,
+        idProduit:44,
         nomProduit:"Anglais : Anglais CM2",
         checked:true,
         prix:1900,
@@ -499,7 +499,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:4,
+        idProduit:45,
         nomProduit:"Mathématiques : Mathématiques CM2",
         checked:true,
         prix:1900,
@@ -510,7 +510,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:5,
+        idProduit:46,
         nomProduit:"Science et Technologie : Science et Technologie",
         checked:true,
         prix:1800,
@@ -521,7 +521,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:6,
+        idProduit:47,
         nomProduit:"Education civique et morale : Nous devenons citoyens (CM I et CM II)",
         checked:true,
         prix:1800,
@@ -532,7 +532,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:7,
+        idProduit:48,
         nomProduit:"TIC : livre unique CM1-CM2",
         checked:true,
         prix:1800,
@@ -543,7 +543,7 @@ let livresData=[
     {
         idCategory:8,
         labelCategory:"CM2",
-        idProduit:8,
+        idProduit:49,
         nomProduit:"Sciences Humaines et Sociales : Sciences humaines et sociales",
         checked:true,
         prix:1850,
@@ -554,7 +554,7 @@ let livresData=[
     {
         idCategory:9,
         labelCategory:"Nursery One",
-        idProduit:1,
+        idProduit:50,
         nomProduit:"Language : language Activity Book Nursery 1 (ATEMEC)",
         checked:true,
         prix:1000,
@@ -566,7 +566,7 @@ let livresData=[
     {
         idCategory:9,
         labelCategory:"Nursery One",
-        idProduit:2,
+        idProduit:51,
         nomProduit:"Drawing and Coloring : Innovative Drawing and Colouring (DESTINY PRINTS)",
         checked:true,
         prix:1000,
@@ -577,7 +577,7 @@ let livresData=[
     {
         idCategory:9,
         labelCategory:"Nursery One",
-        idProduit:3,
+        idProduit:52,
         nomProduit:"Mathematics : Elementary Mathematics Activity Book 1 (DOVE)",
         checked:true,
         prix:1000,
@@ -588,7 +588,7 @@ let livresData=[
     {
         idCategory:10,
         labelCategory:"Nursery Two",
-        idProduit:1,
+        idProduit:53,
         nomProduit:"Language : language Activity Book Nursery 2 (ATEMEC)",
         checked:true,
         prix:1000,
@@ -599,7 +599,7 @@ let livresData=[
     {
         idCategory:10,
         labelCategory:"Nursery Two",
-        idProduit:2,
+        idProduit:54,
         nomProduit:"Drawing and Coloring : ANUCAM Drawing and Colouring, Nursery 2 (ANUCAM)",
         checked:true,
         prix:1000,
@@ -610,7 +610,7 @@ let livresData=[
     {
         idCategory:10,
         labelCategory:"Nursery Two",
-        idProduit:3,
+        idProduit:55,
         nomProduit:"Mathematics : Elementary Mathematics Activity Book 2 (DOVE)",
         checked:true,
         prix:1000,
@@ -621,7 +621,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:1,
+        idProduit:56,
         nomProduit:"Handwriting : Handwritting Workbook Class 1",
         checked:true,
         prix:1500,
@@ -633,7 +633,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:2,
+        idProduit:57,
         nomProduit:"English : Winners",
         checked:true,
         prix:1800,
@@ -644,7 +644,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:3,
+        idProduit:58,
         nomProduit:"French : Parlons Français. Livre de l’élève 1",
         checked:true,
         prix:1800,
@@ -655,7 +655,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:4,
+        idProduit:59,
         nomProduit:"Mathematics : Innovative Mathematics",
         checked:true,
         prix:1800,
@@ -666,7 +666,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:5,
+        idProduit:60,
         nomProduit:"Science and Technology : Standard Science and Technology",
         checked:true,
         prix:1500,
@@ -677,7 +677,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:6,
+        idProduit:61,
         nomProduit:"Social Studies : The Good Citizen Pupil’s Book 1 and 2",
         checked:true,
         prix:1500,
@@ -688,7 +688,7 @@ let livresData=[
     {
         idCategory:11,
         labelCategory:"CLASS 1",
-        idProduit:7,
+        idProduit:62,
         nomProduit:"ICT : Winners",
         checked:true,
         prix:1500,
@@ -699,7 +699,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:1,
+        idProduit:63,
         nomProduit:"Handwriting : Emergence in Handwritting",
         checked:true,
         quantity:0,
@@ -711,7 +711,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:2,
+        idProduit:64,
         nomProduit:"English : Winners",
         checked:true,
         quantity:0,
@@ -722,7 +722,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:3,
+        idProduit:65,
         nomProduit:"French : J’apprends le Français. Livre de l’élève",
         checked:true,
         quantity:0,
@@ -733,7 +733,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:4,
+        idProduit:66,
         nomProduit:"Mathematics : Winners in Mathematics",
         checked:true,
         quantity:0,
@@ -744,7 +744,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:5,
+        idProduit:67,
         nomProduit:"Science and Technology : Standard Science and Technology",
         checked:true,
         quantity:0,
@@ -755,7 +755,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:6,
+        idProduit:68,
         nomProduit:"Social Studies : The Good Citizen Pupil’s Book (Classes I and II)",
         checked:true,
         quantity:0,
@@ -766,7 +766,7 @@ let livresData=[
     {
         idCategory:12,
         labelCategory:"CLASS 2",
-        idProduit:7,
+        idProduit:69,
         nomProduit:"ICT CLASSES 1 AND 2 : Winners",
         checked:true,
         quantity:0,
@@ -777,7 +777,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:1,
+        idProduit:70,
         nomProduit:"English Language : English Language Class 3",
         checked:true,
         quantity:0,
@@ -789,7 +789,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:2,
+        idProduit:71,
         nomProduit:"Literature : Literature Class 3 : How are You Benjamin ?",
         checked:true,
         quantity:0,
@@ -800,7 +800,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:3,
+        idProduit:72,
         nomProduit:"French Language: French Class 3",
         checked:true,
         quantity:0,
@@ -811,7 +811,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:4,
+        idProduit:73,
         nomProduit:"Mathematics : Mathematics class 3",
         checked:true,
         quantity:0,
@@ -822,7 +822,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:5,
+        idProduit:74,
         nomProduit:"Science and Technology : Science and Technology Class 3",
         checked:true,
         quantity:0,
@@ -833,7 +833,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:6,
+        idProduit:75,
         nomProduit:"Social Studies : Social studies Class 3",
         checked:true,
         quantity:0,
@@ -844,7 +844,7 @@ let livresData=[
     {
         idCategory:13,
         labelCategory:"CLASS 3",
-        idProduit:7,
+        idProduit:76,
         nomProduit:"ICT : ICT Class 3 and Class 4",
         checked:true,
         quantity:0,
@@ -855,7 +855,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:1,
+        idProduit:77,
         nomProduit:"English Language : English Language Class 3",
         checked:true,
         quantity:0,
@@ -867,7 +867,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:2,
+        idProduit:78,
         nomProduit:"Literature : Literature Class 4 : Benjamin is not a little boy !",
         checked:true,
         quantity:0,
@@ -878,7 +878,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:3,
+        idProduit:79,
         nomProduit:"French Language: French Class 4",
         checked:true,
         quantity:0,
@@ -889,7 +889,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:4,
+        idProduit:80,
         nomProduit:"Mathematics : Mathematics class 4",
         checked:true,
         quantity:0,
@@ -900,7 +900,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:5,
+        idProduit:81,
         nomProduit:"Science and Technology: Science and Technology class 4",
         checked:true,
         quantity:0,
@@ -911,7 +911,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:6,
+        idProduit:82,
         nomProduit:"Social Studies : Social Studies Class 4",
         checked:true,
         quantity:0,
@@ -922,7 +922,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:7,
+        idProduit:83,
         nomProduit:"ICT: ICT Class 3 and Class 4",
         checked:true,
         quantity:0,
@@ -933,7 +933,7 @@ let livresData=[
     {
         idCategory:14,
         labelCategory:"CLASS 4",
-        idProduit:8,
+        idProduit:84,
         nomProduit:"National Languages and Cultures : Creatives Arts and Crafts (Class III and Class IV)",
         checked:true,
         quantity:0,
@@ -944,7 +944,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:1,
+        idProduit:85,
         nomProduit:"English Language : English Class 5",
         checked:true,
         quantity:0,
@@ -956,7 +956,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:2,
+        idProduit:86,
         nomProduit:"Literature : Stories and Wonders (Literature Class 5)",
         checked:true,
         quantity:0,
@@ -967,7 +967,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:3,
+        idProduit:87,
         nomProduit:"French : French Class 5",
         checked:true,
         quantity:0,
@@ -978,7 +978,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:4,
+        idProduit:88,
         nomProduit:"Mathematics : Mathematics Class 5",
         checked:true,
         quantity:0,
@@ -989,7 +989,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:5,
+        idProduit:89,
         nomProduit:"Science and Technology : Science and Technology Class 5",
         checked:true,
         quantity:0,
@@ -1000,7 +1000,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:6,
+        idProduit:90,
         nomProduit:"ICT: Information and Communication Technology",
         checked:true,
         quantity:0,
@@ -1011,7 +1011,7 @@ let livresData=[
     {
         idCategory:15,
         labelCategory:"CLASS 5",
-        idProduit:7,
+        idProduit:91,
         nomProduit:"Social Studies : Social Studies Class 5",
         checked:true,
         quantity:0,
@@ -1022,7 +1022,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:1,
+        idProduit:92,
         nomProduit:"English Language : English Class 6",
         checked:true,
         quantity:0,
@@ -1034,7 +1034,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:2,
+        idProduit:93,
         nomProduit:"Literature : Wake up!",
         checked:true,
         quantity:0,
@@ -1045,7 +1045,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:3,
+        idProduit:94,
         nomProduit:"French Language: French Class 6",
         checked:true,
         quantity:0,
@@ -1056,7 +1056,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:4,
+        idProduit:95,
         nomProduit:"Mathematics : Mathematics Class 6",
         checked:true,
         quantity:0,
@@ -1067,7 +1067,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:5,
+        idProduit:96,
         nomProduit:"Science and Technology : Science and Technology Class 6",
         checked:true,
         quantity:0,
@@ -1078,7 +1078,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:6,
+        idProduit:97,
         nomProduit:"ICT: ICT Class 5 and Class 6",
         checked:true,
         quantity:0,
@@ -1089,7 +1089,7 @@ let livresData=[
     {
         idCategory:16,
         labelCategory:"CLASS 6",
-        idProduit:7,
+        idProduit:98,
         nomProduit:"Social Studies : Social Studies Class 6",
         checked:true,
         quantity:0,
@@ -1100,7 +1100,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:1,
+        idProduit:99,
         nomProduit:"Langue Française : l’excellence en français 6ème (NMI)",
         checked:true,
         quantity:0,
@@ -1112,7 +1112,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:2,
+        idProduit:100,
         nomProduit:"Les Chants de la forêt (Afredit)",
         checked:true,
         quantity:0,
@@ -1123,7 +1123,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:3,
+        idProduit:101,
         nomProduit:"Les bimanes (Edicef)",
         checked:true,
         quantity:0,
@@ -1134,7 +1134,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:4,
+        idProduit:102,
         nomProduit:"Anglais : Interactions in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -1145,7 +1145,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:5,
+        idProduit:103,
         nomProduit:"Latin : Latina Lingua 6ème /5ème (D.L)",
         checked:true,
         quantity:0,
@@ -1156,7 +1156,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:6,
+        idProduit:104,
         nomProduit:"Histoire 6ème/5ème (Afredit)",
         checked:true,
         quantity:0,
@@ -1167,7 +1167,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:7,
+        idProduit:105,
         nomProduit:"Geographie : Planète Cameroun 6ème et 1ère An. (Edicef)",
         checked:true,
         quantity:0,
@@ -1178,7 +1178,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:8,
+        idProduit:106,
         nomProduit:"Education à la citoyenneté 6ème/5ème (Mondoux)",
         checked:true,
         quantity:0,
@@ -1189,7 +1189,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:9,
+        idProduit:107,
         nomProduit:"Art : Connaissance et pratique de la musique 6ème / 5ème  (Nouveaux classiques)",
         checked:true,
         quantity:0,
@@ -1200,7 +1200,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:10,
+        idProduit:108,
         nomProduit:"Mathématiques : Collection Périmètre (Nathan)",
         checked:true,
         quantity:0,
@@ -1211,7 +1211,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:11,
+        idProduit:109,
         nomProduit:"Sciences : L’Excellence en Sciences (NMI)",
         checked:true,
         quantity:0,
@@ -1222,7 +1222,7 @@ let livresData=[
     {
         idCategory:17,
         labelCategory:"6ème",
-        idProduit:12,
+        idProduit:110,
         nomProduit:"Informatique : Les Conquérants en Informatique (Masseu)",
         checked:true,
         quantity:0,
@@ -1233,7 +1233,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:1,
+        idProduit:111,
         nomProduit:"Langue Française : l’excellence en français 5ème (NMI)",
         checked:true,
         quantity:0,
@@ -1245,7 +1245,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:2,
+        idProduit:112,
         nomProduit:"L’Arbre Fétiche (Cle)",
         checked:true,
         quantity:0,
@@ -1257,7 +1257,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:3,
+        idProduit:113,
         nomProduit:"La belle histoire de Leuk-le-lièvre (Edicef/NEA)",
         checked:true,
         quantity:0,
@@ -1269,7 +1269,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:4,
+        idProduit:114,
         nomProduit:"Anglais : Interactions in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -1281,7 +1281,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:5,
+        idProduit:115,
         nomProduit:"Histoire 6ème/5ème (Afredit)",
         checked:true,
         quantity:0,
@@ -1293,7 +1293,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:6,
+        idProduit:116,
         nomProduit:"Géographie : Planète Cameroun 5ème et 2ème An. (Edicef)",
         checked:true,
         quantity:0,
@@ -1305,7 +1305,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:7,
+        idProduit:117,
         nomProduit:"Education à la citoyenneté 6ème/5ème (Mondoux)",
         checked:true,
         quantity:0,
@@ -1317,7 +1317,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:8,
+        idProduit:118,
         nomProduit:"Art : Connaissance et pratique de la musique 6ème / 5ème (Nouveaux classiques)",
         checked:true,
         quantity:0,
@@ -1329,7 +1329,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:9,
+        idProduit:119,
         nomProduit:"Mathématiques : Collection Cargo (Hachette)",
         checked:true,
         quantity:0,
@@ -1341,7 +1341,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:10,
+        idProduit:120,
         nomProduit:"Sciences : L’Excellence en Sciences (NMI)",
         checked:true,
         quantity:0,
@@ -1352,7 +1352,7 @@ let livresData=[
     {
         idCategory:18,
         labelCategory:"5ème",
-        idProduit:11,
+        idProduit:121,
         nomProduit:"Informatique : les Conquérants en Informatique (Masseu)",
         checked:true,
         quantity:0,
@@ -1363,7 +1363,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:1,
+        idProduit:122,
         nomProduit:"Langue Française : l’excellence en français 4ème (NMI)",
         checked:true,
         quantity:0,
@@ -1375,7 +1375,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:2,
+        idProduit:123,
         nomProduit:"Trois prétendants, un mari (CLE)",
         checked:true,
         quantity:0,
@@ -1386,7 +1386,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:3,
+        idProduit:124,
         nomProduit:"Père inconnu (Edicef/NEA)",
         checked:true,
         quantity:0,
@@ -1397,7 +1397,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:4,
+        idProduit:125,
         nomProduit:"Anglais : Interactions in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -1408,7 +1408,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:5,
+        idProduit:126,
         nomProduit:"LATIN : Latina Lingua 4è/3è (D&L)",
         checked:true,
         quantity:0,
@@ -1419,7 +1419,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:6,
+        idProduit:127,
         nomProduit:"Histoire : Planète Cameroun. Histoire 4ème et 3ème Année ENS.Technique (EDICEF)",
         checked:true,
         quantity:0,
@@ -1430,7 +1430,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:7,
+        idProduit:128,
         nomProduit:"Geographie : Planète Cameroun. HISTOIRE 4ème et 3ème/ 3ème 4ème années ENS.Technique (Edicef)",
         checked:true,
         quantity:0,
@@ -1441,7 +1441,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:8,
+        idProduit:129,
         nomProduit:"Education à la citoyenneté 4eet 3e / 3ème 4ème années ENS.Technique (Mondoux)",
         checked:true,
         quantity:0,
@@ -1452,7 +1452,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:9,
+        idProduit:130,
         nomProduit:"IHR und WIR Plus 1 (Allemand) (Hueber)",
         checked:true,
         quantity:0,
@@ -1463,7 +1463,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:10,
+        idProduit:131,
         nomProduit:"Nueva Didactica del Espanol I (Habibi)",
         checked:true,
         quantity:0,
@@ -1474,7 +1474,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:11,
+        idProduit:132,
         nomProduit:"Didactica del’Italiano (L’Harmattan)",
         checked:true,
         quantity:0,
@@ -1485,7 +1485,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:12,
+        idProduit:133,
         nomProduit:"Bonjour Cameroun 1 (Chinois) (D&L)",
         checked:true,
         quantity:0,
@@ -1496,7 +1496,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:13,
+        idProduit:134,
         nomProduit:"Mathématiques : Mathématiques Sans Complexe (BelleLettres)",
         checked:true,
         quantity:0,
@@ -1507,7 +1507,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:14,
+        idProduit:135,
         nomProduit:"SVT : L’excellence en SVTEHB (NMI)",
         checked:true,
         quantity:0,
@@ -1518,7 +1518,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:15,
+        idProduit:136,
         nomProduit:"Physique, Chimie, Technologie (Tincyd)",
         checked:true,
         quantity:0,
@@ -1529,7 +1529,7 @@ let livresData=[
     {
         idCategory:19,
         labelCategory:"4ème",
-        idProduit:16,
+        idProduit:137,
         nomProduit:"Informatique : Emergeons en Informatique 4ème / 3ème (Mondoux)",
         checked:true,
         quantity:0,
@@ -1540,7 +1540,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:1,
+        idProduit:138,
         nomProduit:"Langue Française : l’Excellence en Français 3ème (NMI)",
         checked:true,
         quantity:0,
@@ -1551,7 +1551,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:2,
+        idProduit:139,
         nomProduit:"Petit Jo, enfant des rues (Edicef)",
         checked:true,
         quantity:0,
@@ -1562,7 +1562,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:3,
+        idProduit:140,
         nomProduit:"Andromaque (MASSEU)",
         checked:true,
         quantity:0,
@@ -1573,7 +1573,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:4,
+        idProduit:141,
         nomProduit:"Petites gouttes de chant pour créer l’homme (CLE)",
         checked:true,
         quantity:0,
@@ -1584,7 +1584,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:5,
+        idProduit:142,
         nomProduit:"Anglais : Interactions in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -1595,7 +1595,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:6,
+        idProduit:143,
         nomProduit:"Histoire : Planète Cameroun (Hatier)",
         checked:true,
         quantity:0,
@@ -1606,7 +1606,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:7,
+        idProduit:144,
         nomProduit:"Geographie : Planète Cameroun 3ème (Edicef)",
         checked:true,
         quantity:0,
@@ -1617,7 +1617,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:8,
+        idProduit:145,
         nomProduit:"Education à la citoyenneté 4eet 3e / 3ème 4ème années ENS.Technique (Mondoux)",
         checked:true,
         quantity:0,
@@ -1628,7 +1628,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:9,
+        idProduit:146,
         nomProduit:"IHR und WIR Plus 2 (Allemand) (Hueber)",
         checked:true,
         quantity:0,
@@ -1639,7 +1639,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:10,
+        idProduit:147,
         nomProduit:"Nueva Didactica Del Espanol II (Habibi)",
         checked:true,
         quantity:0,
@@ -1650,7 +1650,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:11,
+        idProduit:148,
         nomProduit:"Didactica Del’Italiano (L’Harmattan)",
         checked:true,
         quantity:0,
@@ -1661,7 +1661,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:12,
+        idProduit:149,
         nomProduit:"Bonjour Cameroun 2 (Chinois) (D&L)",
         checked:true,
         quantity:0,
@@ -1672,7 +1672,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:13,
+        idProduit:150,
         nomProduit:"Mathématiques : Collection Périmètre (NATHAN)",
         checked:true,
         quantity:0,
@@ -1683,7 +1683,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:14,
+        idProduit:151,
         nomProduit:"Sciences : L’excellence en SVTEHB (NMI)",
         checked:true,
         quantity:0,
@@ -1694,7 +1694,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:15,
+        idProduit:152,
         nomProduit:"Physique, Chimie, Technologie (Tincyd)",
         checked:true,
         quantity:0,
@@ -1705,7 +1705,7 @@ let livresData=[
     {
         idCategory:20,
         labelCategory:"3ème",
-        idProduit:16,
+        idProduit:153,
         nomProduit:"Informatique : Emergeons en Informatique 4ème / 3ème (Mondoux)",
         checked:true,
         quantity:0,
@@ -1716,7 +1716,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:1,
+        idProduit:154,
         nomProduit:"Philosophie : L’Excellence en Philosophie (NMI)",
         checked:true,
         quantity:0,
@@ -1727,7 +1727,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:2,
+        idProduit:155,
         nomProduit:"Langues Française : Langue et Méthode au 2nd cycle(Afric’Educ)",
         checked:true,
         quantity:0,
@@ -1738,7 +1738,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:3,
+        idProduit:156,
         nomProduit:"Les Tribus de Capitoline (CLE)",
         checked:true,
         quantity:0,
@@ -1749,7 +1749,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:4,
+        idProduit:157,
         nomProduit:"Nouvelle anthologie africaine (HATIER)",
         checked:true,
         quantity:0,
@@ -1760,7 +1760,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:5,
+        idProduit:158,
         nomProduit:"Le Misanthrope (MASSEU)",
         checked:true,
         quantity:0,
@@ -1771,7 +1771,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:6,
+        idProduit:159,
         nomProduit:"Anglais : Interactions in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -1782,7 +1782,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:7,
+        idProduit:160,
         nomProduit:"Math",
         checked:true,
         quantity:0,
@@ -1793,7 +1793,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:8,
+        idProduit:161,
         nomProduit:"Education à la citoyenneté : Emergeons en Education à la citoyenneté (MONDOUX)",
         checked:true,
         quantity:0,
@@ -1804,7 +1804,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:9,
+        idProduit:162,
         nomProduit:"IHR und WIR Plus 3 (Allemand) (HUEBER)",
         checked:true,
         quantity:0,
@@ -1815,7 +1815,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:10,
+        idProduit:163,
         nomProduit:"Nueva Didactica Del Espanol III (HABIBI)",
         checked:true,
         quantity:0,
@@ -1826,7 +1826,7 @@ let livresData=[
     {
         idCategory:21,
         labelCategory:"2de",
-        idProduit:11,
+        idProduit:164,
         nomProduit:"Bonjour Cameroun 3 (Chinois) (D&L)",
         checked:true,
         quantity:0,
@@ -1837,7 +1837,7 @@ let livresData=[
     {
         idCategory:22,
         labelCategory:"2de A et SES ",
-        idProduit:1,
+        idProduit:165,
         nomProduit:"Mathématiques : L’Excellence en Mathématiques (NMI)",
         checked:true,
         quantity:0,
@@ -1848,7 +1848,7 @@ let livresData=[
     {
         idCategory:22,
         labelCategory:"2de A et SES",
-        idProduit:2,
+        idProduit:166,
         nomProduit:"Sciences (CLE)",
         checked:true,
         quantity:0,
@@ -1859,7 +1859,7 @@ let livresData=[
     {
         idCategory:22,
         labelCategory:"2de A et SES",
-        idProduit:14,
+        idProduit:167,
         nomProduit:"Informatique : L’Excellence en Informatique (NMI)",
         checked:true,
         quantity:0,
@@ -1870,7 +1870,7 @@ let livresData=[
     {
         idCategory:23,
         labelCategory:"2de C et E",
-        idProduit:1,
+        idProduit:168,
         nomProduit:"Mathématiques : L’Excellence en Mathématiques (NMI)",
         checked:true,
         quantity:0,
@@ -1881,7 +1881,7 @@ let livresData=[
     {
         idCategory:23,
         labelCategory:"2de C et E",
-        idProduit:2,
+        idProduit:169,
         nomProduit:"SVTEEHB (CLE)",
         checked:true,
         quantity:0,
@@ -1892,7 +1892,7 @@ let livresData=[
     {
         idCategory:23,
         labelCategory:"2de C et E",
-        idProduit:3,
+        idProduit:170,
         nomProduit:"Physique, Chimie : L’excellence en Physique-Chimie (NMI)",
         checked:true,
         quantity:0,
@@ -1903,7 +1903,7 @@ let livresData=[
     {
         idCategory:23,
         labelCategory:"2de C et E",
-        idProduit:4,
+        idProduit:171,
         nomProduit:"Informatique : L’Excellence en Informatique (NMI)",
         checked:true,
         quantity:0,
@@ -1914,7 +1914,7 @@ let livresData=[
     {
         idCategory:24,
         labelCategory:"2de AC",
-        idProduit:1,
+        idProduit:172,
         nomProduit:"Arts Cinématographiques : Initiation aux Arts cinématographiques Terre Africaine)",
         checked:true,
         quantity:0,
@@ -1925,7 +1925,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:1,
+        idProduit:173,
         nomProduit:"MatLangue Française : Langue et Méthode au 2nd cycle (Afric’Educ)h",
         checked:true,
         quantity:0,
@@ -1936,7 +1936,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:2,
+        idProduit:174,
         nomProduit:"MatAu bonheur des Dames (La Mangrove)h",
         checked:true,
         quantity:0,
@@ -1947,7 +1947,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:3,
+        idProduit:175,
         nomProduit:"Balafon (CLE)",
         checked:true,
         quantity:0,
@@ -1958,7 +1958,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:4,
+        idProduit:176,
         nomProduit:"La marmite de Koka Mbala (CLE)",
         checked:true,
         quantity:0,
@@ -1969,7 +1969,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:5,
+        idProduit:177,
         nomProduit:"Philosophie. 1ères Littéraires (Mondoux)",
         checked:true,
         quantity:0,
@@ -1980,7 +1980,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:6,
+        idProduit:178,
         nomProduit:"Philosophie. 1ères Scientifiques et Techniques",
         checked:true,
         quantity:0,
@@ -1991,7 +1991,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:7,
+        idProduit:179,
         nomProduit:"Anglais : Interactions in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2002,7 +2002,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:8,
+        idProduit:180,
         nomProduit:"Education à la citoyenneté 1ère S (Mondoux)",
         checked:true,
         quantity:0,
@@ -2013,7 +2013,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:9,
+        idProduit:181,
         nomProduit:"Allemand : Deutsch in Africa (ABID)",
         checked:true,
         quantity:0,
@@ -2024,7 +2024,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:10,
+        idProduit:182,
         nomProduit:"Nueva Didactica del Espanol IV (HABIBI)",
         checked:true,
         quantity:0,
@@ -2035,7 +2035,7 @@ let livresData=[
     {
         idCategory:25,
         labelCategory:"1ères",
-        idProduit:11,
+        idProduit:183,
         nomProduit:"Bonjour Cameroun 4 (Chinois) (D&L)",
         checked:true,
         quantity:0,
@@ -2046,7 +2046,7 @@ let livresData=[
     {
         idCategory:26,
         labelCategory:"1ères A",
-        idProduit:1,
+        idProduit:184,
         nomProduit:"Mathématiques : Majors en Mathématiques (ASVA)",
         checked:true,
         quantity:0,
@@ -2057,7 +2057,7 @@ let livresData=[
     {
         idCategory:26,
         labelCategory:"1ères A",
-        idProduit:2,
+        idProduit:185,
         nomProduit:"Sciences (CLE)",
         checked:true,
         quantity:0,
@@ -2068,7 +2068,7 @@ let livresData=[
     {
         idCategory:26,
         labelCategory:"1ères A",
-        idProduit:3,
+        idProduit:186,
         nomProduit:"Informatique : A la conquête de l’informatique, 1ères ENSG et ENSG Technique (R.LUSTRAL)",
         checked:true,
         quantity:0,
@@ -2079,7 +2079,7 @@ let livresData=[
     {
         idCategory:27,
         labelCategory:"1ères SES",
-        idProduit:1,
+        idProduit:187,
         nomProduit:"Mathématiques : Majors en Mathématiques (ASVA)",
         checked:true,
         quantity:0,
@@ -2090,7 +2090,7 @@ let livresData=[
     {
         idCategory:27,
         labelCategory:"1ères SES",
-        idProduit:2,
+        idProduit:188,
         nomProduit:"Sciences (CLE)",
         checked:true,
         quantity:0,
@@ -2101,7 +2101,7 @@ let livresData=[
     {
         idCategory:27,
         labelCategory:"1ères SES",
-        idProduit:3,
+        idProduit:189,
         nomProduit:"Informatique : A la conquête de l’informatique, 1ères ENSG et ENSG Technique (R.LUSTRAL)",
         checked:true,
         quantity:0,
@@ -2112,7 +2112,7 @@ let livresData=[
     {
         idCategory:28,
         labelCategory:"1ères C et E",
-        idProduit:1,
+        idProduit:190,
         nomProduit:"Mathématiques : L’Excellence en Mathématiques (NMI)",
         checked:true,
         quantity:0,
@@ -2123,7 +2123,7 @@ let livresData=[
     {
         idCategory:28,
         labelCategory:"1ères C et E",
-        idProduit:2,
+        idProduit:191,
         nomProduit:"SVTEEHB : L’Excellence en SVTEEHB 1ère C/TI/E (NMI)",
         checked:true,
         quantity:0,
@@ -2134,7 +2134,7 @@ let livresData=[
     {
         idCategory:28,
         labelCategory:"1ères C et E",
-        idProduit:3,
+        idProduit:192,
         nomProduit:"Physique : L’Excellence en Physique 1ère C et D (NMI)",
         checked:true,
         quantity:0,
@@ -2145,7 +2145,7 @@ let livresData=[
     {
         idCategory:28,
         labelCategory:"1ères C et E",
-        idProduit:4,
+        idProduit:193,
         nomProduit:"Chimie : L’Excellence en Chimie (NMI)",
         checked:true,
         quantity:0,
@@ -2156,7 +2156,7 @@ let livresData=[
     {
         idCategory:28,
         labelCategory:"1ères C et E",
-        idProduit:5,
+        idProduit:194,
         nomProduit:"Informatique : A la conquête de l’Informatique (R. LUSTRAL)",
         checked:true,
         quantity:0,
@@ -2167,7 +2167,7 @@ let livresData=[
     {
         idCategory:29,
         labelCategory:"1ères D et TI",
-        idProduit:4,
+        idProduit:195,
         nomProduit:"Informatique : A la conquête de l’Informatique (R. LUSTRAL)",
         checked:true,
         quantity:0,
@@ -2178,7 +2178,7 @@ let livresData=[
     {
         idCategory:29,
         labelCategory:"1ères D et TI",
-        idProduit:1,
+        idProduit:196,
         nomProduit:"Mathématiques : Mathématiques 1ère D et TI (CEPER)",
         checked:true,
         quantity:0,
@@ -2189,7 +2189,7 @@ let livresData=[
     {
         idCategory:29,
         labelCategory:"1ères D et TI",
-        idProduit:2,
+        idProduit:197,
         nomProduit:"SVTEEHB : SVTEEHB (CLE)",
         checked:true,
         quantity:0,
@@ -2200,7 +2200,7 @@ let livresData=[
     {
         idCategory:29,
         labelCategory:"1ères D et TI",
-        idProduit:3,
+        idProduit:198,
         nomProduit:"Chimie : L’Excellence en Chimie (NMI)",
         checked:true,
         quantity:0,
@@ -2211,7 +2211,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:1,
+        idProduit:199,
         nomProduit:"Langue Française : Langue et méthode au 2nd cycle (AFRIC’EDUC)",
         checked:true,
         quantity:0,
@@ -2222,7 +2222,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:2,
+        idProduit:200,
         nomProduit:"Capitale de la douleur (BELIN-GALLIMARD)",
         checked:true,
         quantity:0,
@@ -2233,7 +2233,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:3,
+        idProduit:201,
         nomProduit:"Munyal, les larmes de la patience (Proximité)",
         checked:true,
         quantity:0,
@@ -2244,7 +2244,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:4,
+        idProduit:202,
         nomProduit:"Ngum a Jemea. La foi inébranlable de Rudolf Dualla Manga Bell (CICD)",
         checked:true,
         quantity:0,
@@ -2255,7 +2255,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:5,
+        idProduit:203,
         nomProduit:"Anglais : Interaction in English (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2266,7 +2266,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:6,
+        idProduit:204,
         nomProduit:"Education à la Citoyenneté : Emergeons en éducation à la citoyenneté (MONDOUX)",
         checked:true,
         quantity:0,
@@ -2277,7 +2277,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:7,
+        idProduit:205,
         nomProduit:"IHR und WIR Plus 4 (Allemand) (HUEBER)",
         checked:true,
         quantity:0,
@@ -2288,7 +2288,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:8,
+        idProduit:206,
         nomProduit:"Nueva Didacta Del Espanol V (HABIBI)",
         checked:true,
         quantity:0,
@@ -2299,7 +2299,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:9,
+        idProduit:207,
         nomProduit:"Piacere ! Niveau 4/B1 (Italien) (BELIN)",
         checked:true,
         quantity:0,
@@ -2310,7 +2310,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:10,
+        idProduit:208,
         nomProduit:"Bonjour Cameroun 4 (Chinois) (D&L)",
         checked:true,
         quantity:0,
@@ -2321,7 +2321,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:11,
+        idProduit:209,
         nomProduit:"Emergeons en Philosophie. Tles Littéraires  (MONDOUX)",
         checked:true,
         quantity:0,
@@ -2332,7 +2332,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:12,
+        idProduit:210,
         nomProduit:"Majors en Philosophie. Tles SES (ASVA)",
         checked:true,
         quantity:0,
@@ -2343,7 +2343,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:13,
+        idProduit:211,
         nomProduit:"Emergeons en Philosophie. Tles Scientifiques (MONDOUX)",
         checked:true,
         quantity:0,
@@ -2354,7 +2354,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:14,
+        idProduit:212,
         nomProduit:"De la médiocrité à l’excellence (CLE)",
         checked:true,
         quantity:0,
@@ -2365,7 +2365,7 @@ let livresData=[
     {
         idCategory:30,
         labelCategory:"Tles",
-        idProduit:15,
+        idProduit:213,
         nomProduit:"Essai sur la problématique philosophique en Afrique (CLE)",
         checked:true,
         quantity:0,
@@ -2376,7 +2376,7 @@ let livresData=[
     {
         idCategory:31,
         labelCategory:"Tles A et SES",
-        idProduit:1,
+        idProduit:214,
         nomProduit:"Mathématiques : Majors en Mathématiques (ASVA)",
         checked:true,
         quantity:0,
@@ -2387,7 +2387,7 @@ let livresData=[
     {
         idCategory:31,
         labelCategory:"Tles A et SES",
-        idProduit:2,
+        idProduit:215,
         nomProduit:"Informatique : A la conquête de l’informatique, niveau 7 (R. LUSTRAL)",
         checked:true,
         quantity:0,
@@ -2398,7 +2398,7 @@ let livresData=[
     {
         idCategory:31,
         labelCategory:"Tles A et SES",
-        idProduit:3,
+        idProduit:216,
         nomProduit:"Sciences Tles Littéraires : L’Excellence en Sciences (NMI)",
         checked:true,
         quantity:0,
@@ -2409,7 +2409,7 @@ let livresData=[
     {
         idCategory:32,
         labelCategory:"Tles C et E",
-        idProduit:1,
+        idProduit:217,
         nomProduit:"Mathématiques : Emergeons en Mathématiques (MONDOUX)",
         checked:true,
         quantity:0,
@@ -2420,7 +2420,7 @@ let livresData=[
     {
         idCategory:32,
         labelCategory:"Tles C et E",
-        idProduit:2,
+        idProduit:218,
         nomProduit:"Physique (Tles C, D, E et TI) : L’Excellence en Physique (NMI)",
         checked:true,
         quantity:0,
@@ -2431,7 +2431,7 @@ let livresData=[
     {
         idCategory:32,
         labelCategory:"Tles C et E",
-        idProduit:3,
+        idProduit:219,
         nomProduit:"Chimie : Chimie Terminales C, D et E (NMI)",
         checked:true,
         quantity:0,
@@ -2442,7 +2442,7 @@ let livresData=[
     {
         idCategory:33,
         labelCategory:"Tles  D et TI",
-        idProduit:1,
+        idProduit:220,
         nomProduit:"Mathématiques : Emergeons en Mathématiques (MONDOUX)",
         checked:true,
         quantity:0,
@@ -2453,7 +2453,7 @@ let livresData=[
     {
         idCategory:33,
         labelCategory:"Tles D et TI",
-        idProduit:2,
+        idProduit:221,
         nomProduit:"SVTEEHB : SVTEEHB (CLE)",
         checked:true,
         quantity:0,
@@ -2464,7 +2464,7 @@ let livresData=[
     {
         idCategory:33,
         labelCategory:"Tles D et TI",
-        idProduit:3,
+        idProduit:222,
         nomProduit:"Informatique C, D, E et TI : A la conquête de l’Informatique, niveau 7 (R. LUSTRAL)",
         checked:true,
         quantity:0,
@@ -2475,7 +2475,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:1,
+        idProduit:223,
         nomProduit:"English Language : Mastering English (NMI)",
         checked:true,
         quantity:0,
@@ -2486,7 +2486,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:2,
+        idProduit:224,
         nomProduit:"Tales From the Grassland adn the Forest (Prose) (CLE) ",
         checked:true,
         quantity:0,
@@ -2497,7 +2497,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:3,
+        idProduit:225,
         nomProduit:"A Questionable Culture (Drama) (NMI)",
         checked:true,
         quantity:0,
@@ -2508,7 +2508,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:4,
+        idProduit:226,
         nomProduit:"Authentic Poetry (Book 1) (NMI)",
         checked:true,
         quantity:0,
@@ -2519,7 +2519,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:5,
+        idProduit:226,
         nomProduit:"French Language : Le réseau du Français (NMI)",
         checked:true,
         quantity:0,
@@ -2530,7 +2530,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:6,
+        idProduit:227,
         nomProduit:"History : Essential English for Junior Secondary Schools (CATWA)",
         checked:true,
         quantity:0,
@@ -2541,7 +2541,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:7,
+        idProduit:228,
         nomProduit:"Geography : Geography for competency Development :  A functional Approach to Geography Study (GREENWORLD)",
         checked:true,
         quantity:0,
@@ -2552,7 +2552,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:8,
+        idProduit:229,
         nomProduit:"Citizenship : Brighter Citizenship for Colleges (EMENGU)",
         checked:true,
         quantity:0,
@@ -2563,7 +2563,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:9,
+        idProduit:230,
         nomProduit:"Mathematics : Interaction in Mathematics (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2574,7 +2574,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:10,
+        idProduit:231,
         nomProduit:"Physics : Mastering Physics (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2585,7 +2585,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:11,
+        idProduit:232,
         nomProduit:"Chemistry : Mastering Chemistry (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2596,7 +2596,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:12,
+        idProduit:233,
         nomProduit:"Biology : Contemporary Biology (EXTRAPRINT)",
         checked:true,
         quantity:0,
@@ -2607,7 +2607,7 @@ let livresData=[
     {
         idCategory:34,
         labelCategory:"FORM I",
-        idProduit:13,
+        idProduit:234,
         nomProduit:"Computer Science : Mastering Computer Science (NMI)",
         checked:true,
         quantity:0,
@@ -2618,7 +2618,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:1,
+        idProduit:235,
         nomProduit:"English Language : Mastering English (NMI)",
         checked:true,
         quantity:0,
@@ -2629,7 +2629,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:2,
+        idProduit:236,
         nomProduit:"Hard Work and Success (Prose) (DAV PUBL.)",
         checked:true,
         quantity:0,
@@ -2640,7 +2640,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:3,
+        idProduit:237,
         nomProduit:"Madmen and Traitors (Drama) (PEACOOK)",
         checked:true,
         quantity:0,
@@ -2651,7 +2651,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:4,
+        idProduit:238,
         nomProduit:"Authentic Poetry (Book 2) (NMI)",
         checked:true,
         quantity:0,
@@ -2662,7 +2662,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:5,
+        idProduit:239,
         nomProduit:"French Language : Le Réseau du Français (NMI)",
         checked:true,
         quantity:0,
@@ -2673,7 +2673,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:6,
+        idProduit:240,
         nomProduit:"History : Essential History for Junior Secondary Schools (CATWA)",
         checked:true,
         quantity:0,
@@ -2684,7 +2684,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:7,
+        idProduit:241,
         nomProduit:"Geography : Geography for Competency Development : A functional Approach to Geography Study (GREENWORLD PUB.)",
         checked:true,
         quantity:0,
@@ -2695,7 +2695,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:8,
+        idProduit:242,
         nomProduit:"Citizenship : Brighter Citizenship for Colleges (EMENGU)",
         checked:true,
         quantity:0,
@@ -2706,7 +2706,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:9,
+        idProduit:242,
         nomProduit:"Pure Mathematics : Pressbook Secondary Mathematics (PRESSBOOK)",
         checked:true,
         quantity:0,
@@ -2717,7 +2717,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:10,
+        idProduit:243,
         nomProduit:"Physics : Mastering Physics (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2728,7 +2728,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:11,
+        idProduit:244,
         nomProduit:"Chemistry : Mastering Chemistry (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2739,7 +2739,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:12,
+        idProduit:245,
         nomProduit:"Biology : Contemporary Biology (EXTRAPRINT)",
         checked:true,
         quantity:0,
@@ -2750,7 +2750,7 @@ let livresData=[
     {
         idCategory:35,
         labelCategory:"FORM II",
-        idProduit:13,
+        idProduit:246,
         nomProduit:"Computer Science : Mastering Computer Studies 2 (NMI)",
         checked:true,
         quantity:0,
@@ -2761,7 +2761,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:1,
+        idProduit:247,
         nomProduit:"English Language : Mastering english (NMI)",
         checked:true,
         quantity:0,
@@ -2772,7 +2772,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:2,
+        idProduit:248,
         nomProduit:"Seat of Thorns (NYAA PUB.)",
         checked:true,
         quantity:0,
@@ -2783,7 +2783,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:3,
+        idProduit:249,
         nomProduit:"The Wrong Decision (NYAA PUB.)",
         checked:true,
         quantity:0,
@@ -2794,7 +2794,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:4,
+        idProduit:250,
         nomProduit:"Authentic Poetry (Book 3) (NMI)",
         checked:true,
         quantity:0,
@@ -2805,7 +2805,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:5,
+        idProduit:251,
         nomProduit:"French Language : Le Réseau du Français (NMI)",
         checked:true,
         quantity:0,
@@ -2816,7 +2816,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:6,
+        idProduit:252,
         nomProduit:"Logic : The Essential Logic for Ordinary Level (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -2827,7 +2827,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:7,
+        idProduit:253,
         nomProduit:"History : Effective Modern History for Colleges Forms 3, 4 & 5 (DOVE)",
         checked:true,
         quantity:0,
@@ -2838,7 +2838,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:8,
+        idProduit:254,
         nomProduit:"Interactive Physical Geography (GREENWORLD)",
         checked:true,
         quantity:0,
@@ -2849,7 +2849,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:9,
+        idProduit:255,
         nomProduit:"International Studen’t Atlas (Forms III to V) (OXFORD)",
         checked:true,
         quantity:0,
@@ -2860,7 +2860,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:10,
+        idProduit:256,
         nomProduit:"Citizenship : Citizenship Education Made Simple (DOVE)",
         checked:true,
         quantity:0,
@@ -2871,7 +2871,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:11,
+        idProduit:257,
         nomProduit:"Food and Nutrition (Forms III to V) (OXFORD)",
         checked:true,
         quantity:0,
@@ -2882,7 +2882,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:12,
+        idProduit:258,
         nomProduit:"Economics : Masterpiece Economics (GRASSROOTS) ",
         checked:true,
         quantity:0,
@@ -2893,7 +2893,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:13,
+        idProduit:259,
         nomProduit:"Commerce : New Ordinary Level Commerce for Cameroon (CATWA)",
         checked:true,
         quantity:0,
@@ -2904,7 +2904,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:14,
+        idProduit:260,
         nomProduit:"Pure Mathematics : Pressbook Secondary Mathematics (PRESSBOOK)",
         checked:true,
         quantity:0,
@@ -2915,7 +2915,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:15,
+        idProduit:261,
         nomProduit:"Physics : Mastering Physics (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -2926,7 +2926,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:16,
+        idProduit:262,
         nomProduit:"Chemistry : Understanding Chemistry (SHILOH PRINTS)",
         checked:true,
         quantity:0,
@@ -2937,7 +2937,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:17,
+        idProduit:263,
         nomProduit:"Biology : Understanding Biology (GREENWORLD)",
         checked:true,
         quantity:0,
@@ -2948,7 +2948,7 @@ let livresData=[
     {
         idCategory:36,
         labelCategory:"FORM III",
-        idProduit:18,
+        idProduit:264,
         nomProduit:"Computer Science : Mastering Computer Studies (NMI)",
         checked:true,
         quantity:0,
@@ -2959,7 +2959,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:1,
+        idProduit:265,
         nomProduit:"English Language : Mastering English (NMI)",
         checked:true,
         quantity:0,
@@ -2970,7 +2970,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:2,
+        idProduit:266,
         nomProduit:"Silas Marner (Prose) (ANUCAM / OXFORD)",
         checked:true,
         quantity:0,
@@ -2981,7 +2981,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:3,
+        idProduit:267,
         nomProduit:"As You Like It (Drama) (ANUCAM / OXFORD)",
         checked:true,
         quantity:0,
@@ -2992,7 +2992,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:4,
+        idProduit:268,
         nomProduit:"French Language : Le Réseau du Français (NMI)",
         checked:true,
         quantity:0,
@@ -3003,7 +3003,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:5,
+        idProduit:269,
         nomProduit:"Logic : The Essential Logic for Ordinary Level (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3014,7 +3014,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:6,
+        idProduit:270,
         nomProduit:"History : Effective Modern History for Colleges Forms 3, 4 & 5 (DOVE)",
         checked:true,
         quantity:0,
@@ -3025,7 +3025,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:7,
+        idProduit:271,
         nomProduit:"Geography : 21st Century Applied Physical Geography and Mapwork for Forms 4 and 5 (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3036,7 +3036,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:8,
+        idProduit:272,
         nomProduit:"Citizenship : Citizenship Education Made Simple (DOVE)",
         checked:true,
         quantity:0,
@@ -3047,7 +3047,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:9,
+        idProduit:273,
         nomProduit:"Geology : O Level Geology and School Practical Guide (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3058,7 +3058,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:10,
+        idProduit:274,
         nomProduit:"Economics : Masterpiece Economics (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3069,7 +3069,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:11,
+        idProduit:275,
         nomProduit:"Commerce : New Ordinary Level Commerce for Cameroon (CATWA)",
         checked:true,
         quantity:0,
@@ -3080,7 +3080,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:12,
+        idProduit:276,
         nomProduit:"Pure Mathematics : Interactions in Mathematics (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -3091,7 +3091,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:13,
+        idProduit:277,
         nomProduit:"Additional Mathematics : Explaining Additional Mathematics (NAARAT)",
         checked:true,
         quantity:0,
@@ -3102,7 +3102,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:14,
+        idProduit:278,
         nomProduit:"Physics : O/Level physics : A modern Approach (GRACE PUB.)",
         checked:true,
         quantity:0,
@@ -3113,7 +3113,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:15,
+        idProduit:279,
         nomProduit:"Chemistry : Understanding Chemistry (SHILOH)",
         checked:true,
         quantity:0,
@@ -3124,7 +3124,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:16,
+        idProduit:280,
         nomProduit:"Human Biology : Understanding Biology Vol. 2",
         checked:true,
         quantity:0,
@@ -3135,7 +3135,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:17,
+        idProduit:281,
         nomProduit:"Biology : Understanding Biology Vol. 1 (GREENWORLD) ",
         checked:true,
         quantity:0,
@@ -3146,7 +3146,7 @@ let livresData=[
     {
         idCategory:37,
         labelCategory:"FORM IV",
-        idProduit:18,
+        idProduit:282,
         nomProduit:"Computer Science : Gateway to Computer Science (Legend Publ.)",
         checked:true,
         quantity:0,
@@ -3157,7 +3157,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:1,
+        idProduit:283,
         nomProduit:"English Language : Mastering english (NMI)",
         checked:true,
         quantity:0,
@@ -3168,7 +3168,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:2,
+        idProduit:284,
         nomProduit:"French Language : Axe du Français (L’Harmattan)",
         checked:true,
         quantity:0,
@@ -3179,7 +3179,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:3,
+        idProduit:285,
         nomProduit:"Logic : The Essential Logic for Ordinary Level (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3190,7 +3190,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:4,
+        idProduit:286,
         nomProduit:"History : Effective Modern History for Colleges Forms 3, 4 & 5 (DOVE)",
         checked:true,
         quantity:0,
@@ -3201,7 +3201,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:5,
+        idProduit:287,
         nomProduit:"Geography : 21st Century Applied Physical Geography and Mapwork for Forms 4 and 5 (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3212,7 +3212,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:6,
+        idProduit:288,
         nomProduit:"Geology : O Level Geology and School Practical Guide (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3223,7 +3223,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:7,
+        idProduit:289,
         nomProduit:"Citizenship : Citizenship Education Made Simple (DOVE)",
         checked:true,
         quantity:0,
@@ -3234,7 +3234,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:8,
+        idProduit:290,
         nomProduit:"Economics : Masterpiece Economics (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3245,7 +3245,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:9,
+        idProduit:291,
         nomProduit:"Commerce : New Ordinary Level Commerce for Cameroon (CATWA)",
         checked:true,
         quantity:0,
@@ -3256,7 +3256,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:10,
+        idProduit:292,
         nomProduit:"Pure Mathematics : Interactions in Mathematics (CAMBRIDGE)",
         checked:true,
         quantity:0,
@@ -3267,7 +3267,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:11,
+        idProduit:293,
         nomProduit:"Additional Mathematics : Explaining Additional Mathematics (NAARAT)",
         checked:true,
         quantity:0,
@@ -3278,7 +3278,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:12,
+        idProduit:294,
         nomProduit:"Physics : O/Level physics : A modern Approach (GRACE PUB.)",
         checked:true,
         quantity:0,
@@ -3289,7 +3289,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:13,
+        idProduit:295,
         nomProduit:"Chemistry : Understanding Chemistry (SHILOH)",
         checked:true,
         quantity:0,
@@ -3300,7 +3300,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:14,
+        idProduit:296,
         nomProduit:"Human Biology : Understanding Biology Vol. 2",
         checked:true,
         quantity:0,
@@ -3311,7 +3311,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:15,
+        idProduit:297,
         nomProduit:"Biology : Understanding Biology Vol. 1 (GREENWORLD)",
         checked:true,
         quantity:0,
@@ -3322,7 +3322,7 @@ let livresData=[
     {
         idCategory:38,
         labelCategory:"FORM V",
-        idProduit:16,
+        idProduit:298,
         nomProduit:"Computer Science : Gateway Computer Science (Legend)",
         checked:true,
         quantity:0,
@@ -3333,7 +3333,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:1,
+        idProduit:299,
         nomProduit:"English Language : Mastering English (NMI)",
         checked:true,
         quantity:0,
@@ -3344,7 +3344,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:2,
+        idProduit:300,
         nomProduit:"Hard Times (ANUCAM / OXFORD)",
         checked:true,
         quantity:0,
@@ -3355,7 +3355,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:3,
+        idProduit:301,
         nomProduit:"The Way of The World (ANUCAM / OXFORD)",
         checked:true,
         quantity:0,
@@ -3366,7 +3366,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:4,
+        idProduit:302,
         nomProduit:"Death of a Salesman (ANUCAM)",
         checked:true,
         quantity:0,
@@ -3377,7 +3377,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:5,
+        idProduit:303,
         nomProduit:"Hamlet (ANUCAM / OXFORD)",
         checked:true,
         quantity:0,
@@ -3388,7 +3388,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:6,
+        idProduit:304,
         nomProduit:"The Rape of the Lock (ANUCAM / NMI)",
         checked:true,
         quantity:0,
@@ -3399,7 +3399,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:7,
+        idProduit:305,
         nomProduit:"The General Prologue and the Frankline’s Prologue (ANUCAM / NMI)",
         checked:true,
         quantity:0,
@@ -3410,7 +3410,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:8,
+        idProduit:306,
         nomProduit:"French Language : Apprenons le Français (ANUCAM)",
         checked:true,
         quantity:0,
@@ -3421,7 +3421,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:9,
+        idProduit:307,
         nomProduit:"Walaande. L’art de partager un mari (Proximité)",
         checked:true,
         quantity:0,
@@ -3432,7 +3432,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:10,
+        idProduit:308,
         nomProduit:"Le fils d’Agatha Moudio (CLE)",
         checked:true,
         quantity:0,
@@ -3443,7 +3443,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:11,
+        idProduit:309,
         nomProduit:"Philosophy : Certified Philosophy for Cameroon CGE (CATWA)",
         checked:true,
         quantity:0,
@@ -3454,7 +3454,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:12,
+        idProduit:310,
         nomProduit:"Complete Physical Geography and Contemporary Environmental Issues for Advanced Learners / Practical Geography (GRASSROOTS PUBLISHING)",
         checked:true,
         quantity:0,
@@ -3465,7 +3465,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:13,
+        idProduit:311,
         nomProduit:"Advanced Integrated Human Geography (GREENWORLD)",
         checked:true,
         quantity:0,
@@ -3476,7 +3476,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:14,
+        idProduit:312,
         nomProduit:"Statistical Techniques and Fieldwork in Geography forAdvanced Learners (GRASSROOTS PUBLISHING)",
         checked:true,
         quantity:0,
@@ -3487,7 +3487,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:15,
+        idProduit:313,
         nomProduit:"Pure Mathematics : Advanced level Pure Mathematics Made Easy (GRACE PUB.)",
         checked:true,
         quantity:0,
@@ -3498,7 +3498,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:16,
+        idProduit:314,
         nomProduit:"Further Pure Mathematics : Further Pure Mathematics Made Easy (GRACE PUB.)",
         checked:true,
         quantity:0,
@@ -3509,7 +3509,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:17,
+        idProduit:315,
         nomProduit:"Mechanics : Mathematics, Mechanics and Probability(OXFORD)",
         checked:true,
         quantity:0,
@@ -3520,7 +3520,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:18,
+        idProduit:316,
         nomProduit:"Further Mechanics : An Integrated Core Approach Demystified Further Mechanics (QUALITY PRINT)",
         checked:true,
         quantity:0,
@@ -3531,7 +3531,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:19,
+        idProduit:317,
         nomProduit:"Chemistry : Advanced Chemistry (OXFORD)",
         checked:true,
         quantity:0,
@@ -3542,7 +3542,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:20,
+        idProduit:318,
         nomProduit:"Biology : Comprehensive A Level Biology : Concepts and Application (PRESBOOK)",
         checked:true,
         quantity:0,
@@ -3553,7 +3553,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:21,
+        idProduit:319,
         nomProduit:"Geology For Advanced Level (Main textbook) (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3564,7 +3564,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:22,
+        idProduit:320,
         nomProduit:"Panorama of Geology A Level. Practical Manual        (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3575,7 +3575,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:23,
+        idProduit:321,
         nomProduit:"ICT : Avanced Level ICT Demystified (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3586,7 +3586,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:24,
+        idProduit:322,
         nomProduit:"Computer Science : Advanced Computer Science Demystified (GRASSROOTS)",
         checked:true,
         quantity:0,
@@ -3597,7 +3597,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:25,
+        idProduit:323,
         nomProduit:"Economics : Advanced Economics (DESTINY)",
         checked:true,
         quantity:0,
@@ -3608,7 +3608,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:26,
+        idProduit:324,
         nomProduit:"Statistics : Explaining Advanced Level Statistics (NAARAT PUB.)",
         checked:true,
         quantity:0,
@@ -3619,7 +3619,7 @@ let livresData=[
     {
         idCategory:39,
         labelCategory:"LOWER & UPPER SIXTH",
-        idProduit:27,
+        idProduit:325,
         nomProduit:"Physics : Advanced Level Physics : A modern Approach (GRACE PUB.)",
         checked:true,
         quantity:0,
@@ -3630,7 +3630,7 @@ let livresData=[
     {
         idCategory:40,
         labelCategory:"6ème et 5ème special",
-        idProduit:1,
+        idProduit:326,
         nomProduit:"Prose : Succes in my Hands",
         checked:true,
         quantity:0,
@@ -3641,7 +3641,7 @@ let livresData=[
     {
         idCategory:40,
         labelCategory:"6ème et 5ème special",
-        idProduit:2,
+        idProduit:327,
         nomProduit:"Poetry : Authentic poetry 1",
         checked:true,
         quantity:0,
@@ -3652,7 +3652,7 @@ let livresData=[
     {
         idCategory:40,
         labelCategory:"6ème et 5ème special",
-        idProduit:3,
+        idProduit:328,
         nomProduit:"Drama : A Questionable culture ?",
         checked:true,
         quantity:0,
@@ -3663,7 +3663,7 @@ let livresData=[
     {
         idCategory:41,
         labelCategory:"4ème et 3ème special",
-        idProduit:1,
+        idProduit:329,
         nomProduit:"Prose : Hard work and success",
         checked:true,
         quantity:0,
@@ -3674,7 +3674,7 @@ let livresData=[
     {
         idCategory:41,
         labelCategory:"4ème et 3ème special",
-        idProduit:2,
+        idProduit:330,
         nomProduit:"Poetry : Authentic poetry 1",
         checked:true,
         quantity:0,
@@ -3685,7 +3685,7 @@ let livresData=[
     {
         idCategory:41,
         labelCategory:"4ème et 3ème special",
-        idProduit:3,
+        idProduit:331,
         nomProduit:"Drama : Three plays : Ngore, When we get there and Roomates",
         checked:true,
         quantity:0,
@@ -3696,7 +3696,7 @@ let livresData=[
     {
         idCategory:42,
         labelCategory:"2nd special",
-        idProduit:1,
+        idProduit:332,
         nomProduit:"Prose : Manna of a life Time",
         checked:true,
         quantity:0,
@@ -3707,7 +3707,7 @@ let livresData=[
     {
         idCategory:42,
         labelCategory:"2nd special",
-        idProduit:2,
+        idProduit:333,
         nomProduit:"Poetry : Authentic poetry 2",
         checked:true,
         quantity:0,
@@ -3718,7 +3718,7 @@ let livresData=[
     {
         idCategory:42,
         labelCategory:"2nd special",
-        idProduit:3,
+        idProduit:334,
         nomProduit:"Drama : Madmen and Traitors",
         checked:true,
         quantity:0,
@@ -3729,7 +3729,7 @@ let livresData=[
     {
         idCategory:43,
         labelCategory:"1ère special",
-        idProduit:1,
+        idProduit:335,
         nomProduit:"Prose : Seat of Thorns",
         checked:true,
         quantity:0,
@@ -3740,7 +3740,7 @@ let livresData=[
     {
         idCategory:43,
         labelCategory:"1ère special",
-        idProduit:2,
+        idProduit:336,
         nomProduit:"Poetry : Authentic poetry 2",
         checked:true,
         quantity:0,
@@ -3751,7 +3751,7 @@ let livresData=[
     {
         idCategory:43,
         labelCategory:"1ère special",
-        idProduit:3,
+        idProduit:337,
         nomProduit:"Drama : Family Saga",
         checked:true,
         quantity:0,
@@ -3762,7 +3762,7 @@ let livresData=[
     {
         idCategory:44,
         labelCategory:"Tles special",
-        idProduit:1,
+        idProduit:338,
         nomProduit:"Prose : Born Before her Time",
         checked:true,
         quantity:0,
@@ -3773,7 +3773,7 @@ let livresData=[
     {
         idCategory:44,
         labelCategory:"Tles special",
-        idProduit:2,
+        idProduit:339,
         nomProduit:"Poetry : Authentic poetry 2",
         checked:true,
         quantity:0,
@@ -3784,7 +3784,7 @@ let livresData=[
     {
         idCategory:44,
         labelCategory:"Tles special",
-        idProduit:3,
+        idProduit:340,
         nomProduit:"Drama : Visiting America",
         checked:true,
         quantity:0,
@@ -3795,7 +3795,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"Form I and II special",
-        idProduit:1,
+        idProduit:341,
         nomProduit:"Prose : Père inconnu",
         checked:true,
         quantity:0,
@@ -3806,7 +3806,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"Form I and II  special",
-        idProduit:2,
+        idProduit:342,
         nomProduit:"Poésie : L’attachement au sol natal 2ème édition",
         checked:true,
         quantity:0,
@@ -3817,7 +3817,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"Form I and II  special",
-        idProduit:3,
+        idProduit:343,
         nomProduit:"Théâtre : La marmite de Koka-Mbala",
         checked:true,
         quantity:0,
@@ -3828,7 +3828,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"Form III and IV special",
-        idProduit:1,
+        idProduit:344,
         nomProduit:"Prose : L’arbre fétiche",
         checked:true,
         quantity:0,
@@ -3839,7 +3839,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"Form III and IV special",
-        idProduit:2,
+        idProduit:345,
         nomProduit:"Poésie : L’attachement au sol natal 2ème édition",
         checked:true,
         quantity:0,
@@ -3850,7 +3850,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"Form III and IV special",
-        idProduit:3,
+        idProduit:346,
         nomProduit:"Théâtre : Notre fille ne se mariera pas",
         checked:true,
         quantity:0,
@@ -3861,7 +3861,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"LOWER SIX special",
-        idProduit:1,
+        idProduit:347,
         nomProduit:"Prose : Walaande. L’art de partager un mari",
         checked:true,
         quantity:0,
@@ -3872,7 +3872,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"LOWER SIX special",
-        idProduit:2,
+        idProduit:348,
         nomProduit:"Poésie : A hauteur de sang",
         checked:true,
         quantity:0,
@@ -3883,7 +3883,7 @@ let livresData=[
     {
         idCategory:45,
         labelCategory:"LOWER SIX special",
-        idProduit:3,
+        idProduit:349,
         nomProduit:"Théâtre : La Secrétaire particulière",
         checked:true,
         quantity:0,
@@ -3894,7 +3894,7 @@ let livresData=[
     {
         idCategory:46,
         labelCategory:"UPPER SIX special",
-        idProduit:1,
+        idProduit:350,
         nomProduit:"Prose : Walaande. L’art de partager un mari",
         checked:true,
         quantity:0,
@@ -3905,7 +3905,7 @@ let livresData=[
     {
         idCategory:46,
         labelCategory:"UPPER SIX special",
-        idProduit:2,
+        idProduit:360,
         nomProduit:"Poésie : A hauteur de sang",
         checked:true,
         quantity:0,
@@ -3916,7 +3916,7 @@ let livresData=[
     {
         idCategory:46,
         labelCategory:"UPPER SIX special",
-        idProduit:3,
+        idProduit:361,
         nomProduit:"Théâtre : La Secrétaire particulière",
         checked:true,
         quantity:0,

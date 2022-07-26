@@ -78,7 +78,7 @@ dataVille.set("Douala", [
         "YOUPWE",
     ]);
 
-dataVille.set("Yaoundé",[
+dataVille.set("YAOUNDE",[
         "AUTRE QUARTIER YAOUNDE",
         "ABANG",
         "ABATTOIR" ,
